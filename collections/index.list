@@ -1,0 +1,14 @@
+{.section collection}
+
+<!-- Index Sections -->
+{.repeated section collections}
+    
+    <!-- Page Sections -->
+    <div id="{navigationTitle}" class="index-section">
+        <h2 class="section-title">{title}</h2>
+        {mainContent}
+    </div>
+
+{.end}
+
+{.end}
