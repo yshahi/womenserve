@@ -18,8 +18,7 @@
   <body id="splash" class="{squarespace.page-classes} {.section collection}{urlId}{.end}">
     
     <main class="content" role="main" data-content-field="main-content">
-      
-      <!-- site title or logo -->
+
       {.section website}
         <h1 class="logo" data-content-field="site-title">{siteTitle}</h1>
       {.end}
@@ -29,7 +28,7 @@
         <li><a class="button" href="mailto:" target="blank">Contact</a></li>
       </ul>
       
-      <h2>New Website Coming Soon</h2>
+      <h2 class="announcement">New Website Coming Soon</h2>
       
     </main>
       
