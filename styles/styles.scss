@@ -126,16 +126,18 @@ html {
 body {
 	display: block;
 	position: relative;
-	width: 100%;
-	height: auto;
+	width: 100vw;
+	height: 100vh;
 	margin: 0px;
 	opacity: 1;
 	text-align: center;
 	overflow: hidden;
 	font-family: 'Balgin', Helvetica, Arial, sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-style: normal;
-	background-color: $blue;
+	background: $blue url('../assets/svgs/ws-bg.svg') no-repeat;
+	background-position: center 40%;
+	background-size: 400vw;
 }
 
 
@@ -151,63 +153,104 @@ body {
 	position: relative; 
 }
 
-a.button, div.button, .sqs-block-button .sqs-block-button-element--medium, .sqs-block-button .sqs-block-button-element--small, .sqs-block-button .sqs-block-button-element--large {
+a.button {
 	display: inline-block;
 	position: relative;
 	height: auto;
 	margin: 0;
-	padding: 13px 28px 12px 28px;
+	padding: 13px 32px 12px 32px;
 	color: $blue;
 	font-family: 'Balgin', Helvetica, Arial, sans-serif;
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 1.25px;
 	text-decoration: none;
 	border-radius: 60px;
 	background-color: $pink;
-	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
 	z-index: 1000;
-	
-	&:before, &:after {
-		width: 8px;
-		height: 11px;
-		top: 21px;
-		left: unset;
-		right: 26px;
-		background: url('../assets/svgs/arrow-white.svg') no-repeat;
-		background-position: center center;
-		background-size: 100%;
-	}
-	
-	&:after {
-		background: url('../assets/svgs/arrow-pink.svg') no-repeat;
-		opacity: 0;
-	}
 
 	&:hover {
 		color: $pink;
 		background-color: $white;
 		opacity: 1 !important;
-		
-		&:before, &:after {
-			right: 22px;
-		}
-		
-		&:after {
-			opacity: 1;
-		}
 	}
 }
 
 
 // Splash
-.splash {
-
+#splash {
+	position: relative;
+	text-align: center;
+	
+	.logo {
+		display: block;
+		padding: 0;
+		width: 500px;
+		height: 400px;
+		position: absolute;
+		top: 50vh;
+		left: 50vw;
+		margin: -320px 0 0 -260px;
+		text-indent: -9999px;
+		background: url('../assets/svgs/ws-logo.svg') no-repeat;
+		background-position: center center;
+		background-size: 100%;
+	}
+	
+	.buttons {
+		position: absolute;
+		min-width: 300px;
+		position: absolute;
+		top: 50vh;
+		left: 50vw;
+		margin: 160px 0 0 -140px;
+		padding: 0;
+		
+		li {
+			margin-right: 20px;
+			float: left;
+			list-style: none;
+		}
+	}
+	
+	.announcement {
+		display: inline-block;
+		position: absolute;
+		min-width: 200px;
+		left: 50vw;
+		bottom: 4vh;
+		margin: 0 0 0 -100px;
+		padding: 0;
+		color: $pink;
+		font-family: 'Balgin', Helvetica, Arial, sans-serif;
+		font-weight: 300;
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		
+		&:before {
+			@include pseudo;
+			top: 10px;
+			left: -201.5vw;
+			width: 200vw;
+			height: 1px;
+			background: $pink;
+		}
+		
+		&:after {
+			@include pseudo;
+			top: 10px;
+			left: unset;
+			right: -201.5vw;
+			width: 200vw;
+			height: 1px;
+			background: $pink;
+		}
+	}
 }
 
 
- 
 //Footer
 .footer { 
 
@@ -233,6 +276,24 @@ a.button, div.button, .sqs-block-button .sqs-block-button-element--medium, .sqs-
 
 
 // RESPONSIVE STYLES ///////////////////////////////////////////////////////
+@media screen and (max-width: 650px) {
+	
+	#splash {
+		.logo {
+			width: 280px;
+			height: 220px;
+			position: absolute;
+			top: 50vh;
+			left: 50vw;
+			margin: -240px 0 0 -140px;
+		}
+		
+		.buttons {
+			margin: 40px 0 0 -140px;
+			padding: 0;
+		}
+	}
+}
 
 
 
