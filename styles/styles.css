@@ -41,16 +41,18 @@ html {
 body {
   display: block;
   position: relative;
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   margin: 0px;
   opacity: 1;
   text-align: center;
   overflow: hidden;
   font-family: "Balgin", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
-  background-color: rgb(40, 43, 102);
+  background: rgb(40, 43, 102) url("../assets/svgs/ws-bg.svg") no-repeat;
+  background-position: center 40%;
+  background-size: 400vw;
 }
 
 * {
@@ -70,48 +72,122 @@ body {
   position: relative;
 }
 
-a.button, div.button, .sqs-block-button .sqs-block-button-element--medium, .sqs-block-button .sqs-block-button-element--small, .sqs-block-button .sqs-block-button-element--large {
+a.button {
   display: inline-block;
   position: relative;
   height: auto;
   margin: 0;
-  padding: 13px 28px 12px 28px;
+  padding: 13px 32px 12px 32px;
   color: rgb(40, 43, 102);
   font-family: "Balgin", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1.25px;
   text-decoration: none;
   border-radius: 60px;
   background-color: rgb(236, 151, 150);
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
   z-index: 1000;
 }
-a.button:before, a.button:after, div.button:before, div.button:after, .sqs-block-button .sqs-block-button-element--medium:before, .sqs-block-button .sqs-block-button-element--medium:after, .sqs-block-button .sqs-block-button-element--small:before, .sqs-block-button .sqs-block-button-element--small:after, .sqs-block-button .sqs-block-button-element--large:before, .sqs-block-button .sqs-block-button-element--large:after {
-  width: 8px;
-  height: 11px;
-  top: 21px;
-  left: unset;
-  right: 26px;
-  background: url("../assets/svgs/arrow-white.svg") no-repeat;
-  background-position: center center;
-  background-size: 100%;
-}
-a.button:after, div.button:after, .sqs-block-button .sqs-block-button-element--medium:after, .sqs-block-button .sqs-block-button-element--small:after, .sqs-block-button .sqs-block-button-element--large:after {
-  background: url("../assets/svgs/arrow-pink.svg") no-repeat;
-  opacity: 0;
-}
-a.button:hover, div.button:hover, .sqs-block-button .sqs-block-button-element--medium:hover, .sqs-block-button .sqs-block-button-element--small:hover, .sqs-block-button .sqs-block-button-element--large:hover {
+a.button:hover {
   color: rgb(236, 151, 150);
   background-color: rgb(244, 249, 255);
   opacity: 1 !important;
 }
-a.button:hover:before, a.button:hover:after, div.button:hover:before, div.button:hover:after, .sqs-block-button .sqs-block-button-element--medium:hover:before, .sqs-block-button .sqs-block-button-element--medium:hover:after, .sqs-block-button .sqs-block-button-element--small:hover:before, .sqs-block-button .sqs-block-button-element--small:hover:after, .sqs-block-button .sqs-block-button-element--large:hover:before, .sqs-block-button .sqs-block-button-element--large:hover:after {
-  right: 22px;
+
+#splash {
+  position: relative;
+  text-align: center;
 }
-a.button:hover:after, div.button:hover:after, .sqs-block-button .sqs-block-button-element--medium:hover:after, .sqs-block-button .sqs-block-button-element--small:hover:after, .sqs-block-button .sqs-block-button-element--large:hover:after {
-  opacity: 1;
+#splash .logo {
+  display: block;
+  padding: 0;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  margin: -320px 0 0 -260px;
+  text-indent: -9999px;
+  background: url("../assets/svgs/ws-logo.svg") no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+#splash .buttons {
+  position: absolute;
+  min-width: 300px;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  margin: 160px 0 0 -140px;
+  padding: 0;
+}
+#splash .buttons li {
+  margin-right: 20px;
+  float: left;
+  list-style: none;
+}
+#splash .announcement {
+  display: inline-block;
+  position: absolute;
+  min-width: 200px;
+  left: 50vw;
+  bottom: 4vh;
+  margin: 0 0 0 -100px;
+  padding: 0;
+  color: rgb(236, 151, 150);
+  font-family: "Balgin", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#splash .announcement:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-transition: all 0.3s 0s ease !important;
+  -moz-transition: all 0.3s 0s ease !important;
+  -o-transition: all 0.3s 0s ease !important;
+  -ms-transition: all 0.3s 0s ease !important;
+  transition: all 0.3s 0s ease !important;
+  backface-visibility: hidden;
+  perspective: 1000;
+  top: 10px;
+  left: -201.5vw;
+  width: 200vw;
+  height: 1px;
+  background: rgb(236, 151, 150);
+}
+#splash .announcement:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-transition: all 0.3s 0s ease !important;
+  -moz-transition: all 0.3s 0s ease !important;
+  -o-transition: all 0.3s 0s ease !important;
+  -ms-transition: all 0.3s 0s ease !important;
+  transition: all 0.3s 0s ease !important;
+  backface-visibility: hidden;
+  perspective: 1000;
+  top: 10px;
+  left: unset;
+  right: -201.5vw;
+  width: 200vw;
+  height: 1px;
+  background: rgb(236, 151, 150);
 }
 
 .sqs-block-summary-v2 .img-wrapper img, .sqs-block-summary-v2 .sqs-video-wrapper img {
@@ -124,4 +200,19 @@ a.button:hover:after, div.button:hover:after, .sqs-block-button .sqs-block-butto
 
 .sqs-grid-12 {
   width: 100% !important;
+}
+
+@media screen and (max-width: 650px) {
+  #splash .logo {
+    width: 280px;
+    height: 220px;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    margin: -240px 0 0 -140px;
+  }
+  #splash .buttons {
+    margin: 40px 0 0 -140px;
+    padding: 0;
+  }
 }
