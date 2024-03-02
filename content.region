@@ -1,0 +1,42 @@
+<!-- Page Content -->
+
+<!doctype html>
+<html>
+  
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>WomenServe Foundation | Born Powerful</title>
+    <meta property="og:site_name" content="WomenServe Foundation"/>
+    <meta property="og:title" content="WomenServe Foundation | Women Helping Women Achieve Economic Equality"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="Increasing access to water security, education, health, and economic opportunity for women around the globe."/>
+    <meta name="description" content="Increasing access to water security, education, health, and economic opportunity for women around the globe." />
+    
+    {squarespace-headers}
+    
+  </head>
+  
+  <body class="{squarespace.page-classes} {.section collection}{urlId}{.end}">
+        
+        
+      <main class="content">
+      
+            <div class="frame">
+      
+                  {squarespace.main-content}
+                  
+            </div>
+      
+      </main>
+      
+<!-- combo and minify scripts when not logged in -->
+<script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+<squarespace:script src="site-min.js" combo="true" />
+
+<!-- Squarespace scripts and footer code injection -->
+{squarespace-footers}
+
+</body>
+
+</html> 
