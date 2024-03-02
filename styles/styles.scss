@@ -200,17 +200,27 @@ a.button {
 	
 	.buttons {
 		position: absolute;
-		min-width: 300px;
+		min-width: 320px;
 		position: absolute;
-		top: 50vh;
+		top: 53vh;
 		left: 50vw;
-		margin: 160px 0 0 -140px;
+		margin: 160px 0 0 -150px;
 		padding: 0;
 		
 		li {
 			margin-right: 20px;
 			float: left;
 			list-style: none;
+		}
+		
+		li.about {
+			position: absolute;
+			top: -70px;
+			left: 0px;
+			
+			a.button {
+				padding: 13px 54px 12px 54px;
+			}
 		}
 	}
 	
