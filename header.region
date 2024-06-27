@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- include system scripts, page meta, and header code injection -->
+    {squarespace-headers}
+  </head>
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+  <div class="main-wrapper"> <!-- Open main-wrapper -->
+    <header class="site-header">
+        <div class="site-container">
+        
+            <!-- site title or logo -->
+            {.section website}
+                <h1 class="site-title-heading" data-content-field="site-title">
+                    <!--<a href="/" class="site-title-link">{siteTitle}</a> -->
+                    <a href="#" class="site-title-link"><img src="https://images.squarespace-cdn.com/content/v1/66616a4166888e53038e026c/3af2d02f-6352-48ef-a412-aafb481705fe/WomenServe-Logo.png?format=1000w" /></a>
+                </h1>
+            {.end}
+
+            <!-- site navigation -->
+            <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+        </div>
+    </header>
