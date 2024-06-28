@@ -106,7 +106,7 @@
 
   {.end}
 
-  {.section collections}
+  <!-- {.section collections}
     <nav class="Index-nav">
       <div class="Index-nav-inner">
         {.repeated section @}
@@ -117,7 +117,7 @@
         {.end}
       </div>
     </nav>
-  {.end}
+  {.end} -->
 
 
 {.end}
