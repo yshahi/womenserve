@@ -263,6 +263,8 @@ a, a:hover{
   .image-card-wrapper{
 
     .image-title-wrapper{
+      padding-top: 2em;
+
       p{
         font-size: 36px;
         line-height: 48px;
@@ -272,12 +274,17 @@ a, a:hover{
       }
     }
     .image-subtitle-wrapper{
-      p{
-        font-size: 36px;
-        line-height: 48px;
-        font-family: 'Balgin-reg';
-        text-transform: uppercase;
-        font-weight: 900;
+
+      .image-subtitle{
+        margin-top: 0;
+
+        p{
+          font-size: 36px;
+          line-height: 48px;
+          font-family: 'Balgin-reg';
+          text-transform: uppercase;
+          font-weight: 900;
+        }
       }
     }
   }
@@ -492,7 +499,30 @@ a, a:hover{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  padding:10vh;
+  padding:5vh;
+  width: auto !important;
+  border-radius:0 0 50px 50px;
+
+  .sqs-block-image-figure{
+    margin: 0;
+  }
+
+  .sqs-col-6{
+    text-align: left;
+
+    p{
+      font-size: 22px;
+      color:#fff;
+      font-family: 'ethic-regular';
+
+      a{
+        color:#FC9294;
+        font-family: 'ethic-regular';
+        text-decoration: none;
+        font-size: 22px;
+      }
+    } 
+  }
 }
 
 /*****
