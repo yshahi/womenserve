@@ -485,6 +485,16 @@ a, a:hover{
 
 }
 
+/* Footer */
+#footerBlocks{
+  background:  url("../assets/images/bg_whySection.png");
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding:10vh;
+}
+
 /*****
     - Tablet And Mobile -
 ******/
