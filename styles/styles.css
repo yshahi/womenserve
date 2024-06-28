@@ -235,6 +235,10 @@ a.button:hover {
   position: relative;
 }
 
+a, a:hover{
+  font-family: 'Balgin-light';
+}
+
 /* Buttons */
 .sqs-block-button-container{
 
@@ -371,6 +375,12 @@ a.button:hover {
       font-family: 'ethic-regular';
       font-weight: 100;
       text-align: left;
+    }
+    p:has(a){
+      padding: 1px;
+      border: 2px dashed #272a69 !important;
+      max-width: fit-content;
+      margin: 0;
 
       a{
         background-color: #272A69 !important;
@@ -378,7 +388,35 @@ a.button:hover {
         text-transform: uppercase !important;
         border-radius: 0 !important;
         font-size: 24px !important;
-        border: 2px dashed #272A69 !important;
+        border: 0 !important;
+        padding: 8px 14px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/* story section */
+#story-section{
+  background:  url("../assets/images/bg_Stories-Section.jpg");
+  padding:10vh;
+
+  .sqs-row{
+    display: flex;
+    
+    .sqs-col-6{
+      display: flex;
+
+      .sqs-block-image{
+        xwidth: 100vw;
+      }
+
+      p{
+        color:#fff;
+        text-align: left;
+        font-size: 22px;
+        line-height: 1.4em;
+        letter-spacing: 1.5px;
       }
     }
   }
