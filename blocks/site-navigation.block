@@ -1,0 +1,30 @@
+<nav class="site-navigation">
+  <div class="menu-icon" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  
+  <ul class="site-navigation-list nav-menu" id="nav-menu">
+    <div class="close-btn" onclick="toggleMenu()">&times;</div>
+    {.repeated section items}
+
+      <li class="site-navigation-item {.section active} active-link{.end}">
+
+        <!-- collection link -->
+        {.section collection}
+          <a href="{fullUrl}">{navigationTitle}</a>
+        {.end}
+
+        <!-- external link -->
+        {.section externalLink}
+          <a href="{url}"{.section newWindow} target="_blank"{.end}>
+            {title}
+          </a>
+        {.end}
+
+      </li>
+
+    {.end}
+  </ul>
+</nav>

@@ -1,0 +1,130 @@
+/****** 
+    Navigation 
+******/
+body.no-scroll {
+    overflow: hidden;
+  }
+  
+  .site-header{
+    position: relative;
+    z-index: 199;
+  
+    .site-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 1em 2em;
+    }
+  }
+  
+  .site-navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    z-index: 200;
+  }
+  
+  .nav-menu.active {
+    display: flex;
+    opacity: 1;
+    transform: translateX(0);
+    background: #272A69;
+  ;
+    width: 450px;
+    height: 100vh;
+    height: 100vh;
+    top: -16px;
+    border-radius: 0 40px 0 0;
+    justify-content: center;
+  }
+  .nav-menu .close-btn {
+    align-self: flex-end;
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 0;
+  }
+  .nav-menu ul {
+    flex-direction: row;
+  }
+  
+  .nav-menu ul li {
+    margin: 0 15px;
+  }
+  
+  .nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Custom style for link */
+  .site-navigation-item {
+    margin-left: 1em;
+    padding: 1.5%;
+  }
+  .site-navigation-item a{
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  
+  @media (min-width: 769px) {
+    .menu-icon {
+        display: block;
+    }
+  
+    .nav-menu {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        width: auto;
+        background-color: transparent;
+        opacity: 1;
+        transform: translateY(0);
+    }
+  
+    .nav-menu ul {
+        flex-direction: row;
+    }
+  
+    .nav-menu ul li {
+        margin: 0 15px;
+    }
+  
+    .nav-menu ul li a {
+        font-size: 18px;
+        color: #fff;
+    }
+  }
+  
