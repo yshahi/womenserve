@@ -7,6 +7,12 @@
   
   <ul class="site-navigation-list nav-menu" id="nav-menu">
     <div class="close-btn" onclick="toggleMenu()">&times;</div>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Why Women</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Impact</a></li>
+    <li><a href="#">Get Involved</a></li>
+    <li><a href="#">Donate</a></li>
     {.repeated section items}
 
       <li class="site-navigation-item {.section active} active-link{.end}">
