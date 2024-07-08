@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', loadAllImages);
 /* Hamburger menu */
 document.addEventListener("DOMContentLoaded", function () {
   function toggleMenu() {
-    const navMenu = document.getElementById('nav-menu');
-    const body = document.body;
+    var navMenu = document.getElementById('nav-menu');
+    var body = document.body;
       
     navMenu.classList.toggle('active');
     body.classList.toggle('no-scroll');
