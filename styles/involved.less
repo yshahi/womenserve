@@ -34,7 +34,7 @@
 
             h2{
                 color: #272A69;
-                font-size: 48px;
+                font-size: 36px;
                 font-family: "Balgin-Extlight";
                 text-transform: uppercase;
                 font-weight: 100;
@@ -42,7 +42,7 @@
     
             p{
                 color: #272A69;
-                font-size: 28px !important;
+                font-size: 24px !important;
                 line-height: 36px;
                 font-family: 'ethic-regular';
                 font-weight: 200;
@@ -56,7 +56,7 @@
             h2{
                 text-align: left;
                 color: #272A69;
-                font-size: 48px;
+                font-size: 36px;
             }
         }
     }
@@ -79,6 +79,7 @@
         
                 button.accordion-item__click-target{
                     /*background-color: #D1695A;*/
+                    width: 98%;
 
                     .accordion-item__title::after{
                         content:"$75,000 sponsorship";
@@ -94,6 +95,42 @@
                         color:#fff;
                         letter-spacing: 2;
                         padding-left: 2.5em;
+                        font-weight: 100;
+                    }
+
+                     /* Open close Icon */
+                     .accordion-icon-container{
+
+                        .plus{
+                            background-image:  url("../assets/images/arrow_close.png");
+                            width: 20px;
+                            height: 20px;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+
+                            &> div{
+                                display: none;
+                            }
+                        }   
+                    }
+                }
+
+                /* Accordian when opem */
+                button.accordion-item__click-target[aria-expanded="true"]{
+
+                    .accordion-icon-container{
+
+                        .plus{
+                            background-image:  url("../assets/images/arrow_open.png");
+                            width: 20px;
+                            height: 20px;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+    
+                            &> div{
+                                display: none;
+                            }
+                        }
                     }
                 }
 
@@ -259,7 +296,7 @@
             h2{
                 text-transform: uppercase;
                 font-family: "Balgin-Extlight";
-                font-size: 32px;
+                font-size: 36px;
                 color: #272A69;
                 padding-top: 10px;
             }

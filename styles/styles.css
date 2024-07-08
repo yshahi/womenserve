@@ -268,7 +268,10 @@ a, a:hover{
       color: #fff !important;
       text-transform: uppercase !important;
       border-radius: 0 !important;
-      font-size: 24px !important;
+      font-size: 18px !important;
+      font-family: "Balgin-Extlight";
       border: 2px dashed #272A69 !important;
+      font-family: "Balgin-Extlight" !important;
+      font-weight: 100;
   }
 }
