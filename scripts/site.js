@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', loadAllImages);
   body.classList.toggle('no-scroll');
 };*/
 
+/* New code hamburger code
 document.addEventListener('DOMContentLoaded', () => {
   const menuBtn = document.querySelector('.menu-btn');
   const nav = document.querySelector('.nav');
@@ -58,4 +59,4 @@ document.addEventListener('DOMContentLoaded', () => {
     overlay.classList.remove('open');
     body.classList.remove('no-scroll');
   }
-});
+}); */

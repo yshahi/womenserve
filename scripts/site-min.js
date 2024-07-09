@@ -1,0 +1,1 @@
+function loadAllImages(){for(var e=document.querySelectorAll("img[data-src]"),a=0;a<e.length;a++)ImageLoader.load(e[a],{load:!0})}$(document).ready((function(){})),document.addEventListener("DOMContentLoaded",loadAllImages);
