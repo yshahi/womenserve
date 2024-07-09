@@ -21,6 +21,7 @@
             {.end}
 
             <!-- site navigation -->
+            <!-- <squarespace:navigation navigationId="primaryNav" template="primary-nav" /> -->
             <squarespace:navigation navigationId="siteNav" template="site-navigation" />
             
         </div>
