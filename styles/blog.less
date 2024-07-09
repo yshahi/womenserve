@@ -1,0 +1,148 @@
+#collection-668c2d461f391719c12806a4{
+
+    .content-container{
+        background-color:  #272A69;
+
+        .sqs-row{
+            padding:10em 0 5em;
+            margin: 0;
+            
+            .sqs-col-12{
+
+                h2{
+                    color:#fff;
+                    font-size: 36px;
+                    line-height: 62px;
+                    font-family: "Balgin-Extlight";
+                    text-transform: uppercase;
+                    font-weight: 100;
+                }
+                
+
+                .summary-block-wrapper{
+                    padding:3em 2em 2em;
+                    background: #fff;
+                    border-radius: 30px;
+
+                    .summary-item{
+                        margin-bottom: 0 !important;
+
+                        p, .summary-title-link{
+                            color: #272A69;
+                            font-family: 'ethic-regular' !important;
+                            text-decoration: none;
+                            font-size: 24px;
+                        }
+                        .summary-read-more-link{
+                            color: #272A69;
+                            font-size: 14px;
+                            line-height: 26px;
+                            text-decoration: none;
+        
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    } 
+                }   
+            }
+        }
+    }
+}
+
+/* Blog Single Page */
+.view-item{
+
+    .main-wrapper{
+        background-color:  #272A69;
+
+        .post-type-text{
+            padding:5em 2em;
+            margin: 0 auto;
+            margin-top: 15em;
+            width: 1140px;
+            background: #fff;
+            border-radius: 30px;
+
+            .meta{
+                font-size: 14px;
+                margin: 0;
+
+                a{
+                    color:#272A69;
+                    font-size: 14px; 
+                }
+            }
+
+            .sqs-grid-12 {
+                padding-top: 2em;
+            }
+
+            h1{
+                color:#272A69;
+                font-size: 36px;
+                font-family: "Balgin-Extlight";
+                text-transform: uppercase;
+                font-weight: 100;
+                margin: 0;
+            }
+
+            p{
+                color: #272A69;
+                font-family: 'ethic-regular' !important;
+                text-decoration: none;
+                font-size: 24px;  
+            }
+
+            .sqs-simple-like{
+                padding-top: 3em;
+            }
+        }
+
+        .blog-item-pagination{
+            padding: 2em;
+            display: flex;
+            justify-content: space-evenly;
+
+            a{
+                color: #fff;
+                display: inline-block;
+                font-family: "Balgin-Extlight";
+                text-transform: uppercase;
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+
+                &::before, &::after{
+                    background-image:  url("../assets/images/arrow_close.png");
+                    content: "";
+                    width: 18px;
+                    height: 18px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    padding-right: 15px;
+                    transform: rotate(180deg);
+                    display: inline-block;
+                    background-position: center;
+                    top: 3px;
+                    position: relative;
+                }
+                &::after{
+                    visibility: hidden;
+                }
+
+            }
+            a:last-child{
+                &::before{
+                    visibility: hidden;
+                }
+                &::after{
+                    transform: rotate(0deg);
+                    visibility: visible;
+                }
+            }
+        }
+    }
+}
