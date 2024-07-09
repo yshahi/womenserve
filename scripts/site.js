@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', loadAllImages);
     
   navMenu.classList.toggle('active');
   body.classList.toggle('no-scroll');
-};
+};*/
 
-document.addEventListener('DOMContentLoaded', () => {*/
+document.addEventListener('DOMContentLoaded', () => {
   const menuBtn = document.querySelector('.menu-btn');
   const nav = document.querySelector('.nav');
   const overlay = document.querySelector('.overlay');
@@ -58,4 +58,4 @@ document.addEventListener('DOMContentLoaded', () => {*/
     overlay.classList.remove('open');
     body.classList.remove('no-scroll');
   }
-/*}); */
+});
