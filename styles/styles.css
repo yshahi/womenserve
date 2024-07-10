@@ -54,7 +54,7 @@
   font-style: normal;
 }
 html {
-  overflow: auto;
+  /*overflow: auto;*/
 }
 
 body {
