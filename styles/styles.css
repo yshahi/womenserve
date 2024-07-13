@@ -24,7 +24,7 @@
 }
 @font-face {
   font-family: "Balgin-Extlight";
-  src: url("../assets/fonts/Balgin-extralight.otf") format("woff"), url("../assets/fonts/Balgin-Light.ttf") format("truetype");
+  src: url("../assets/fonts/Balgin-extralight.otf") format("woff");
   font-weight: 300;
   font-style: normal;
 }
@@ -257,20 +257,36 @@ a, a:hover{
 
 /* Buttons */
 .sqs-block-button-container, .sqs-donate-button-wrapper, .form-button-wrapper{
-  padding: 1px;
-  border: 2px dashed #272a69 !important;
-  max-width: fit-content;
-  margin: 0 auto;
+  
 
-  a.sqs-button-element--primary, .sqs-donate-button, .form-submit-button{
+  a.sqs-button-element--primary, a.sqs-button-element--tertiary, .sqs-donate-button, .form-submit-button{ /* blue button */
       background-color: #272A69 !important;
       color: #fff !important;
       text-transform: uppercase !important;
       border-radius: 0 !important;
       font-size: 18px !important;
-      font-family: "Balgin-Extlight";
-      border: 2px dashed #272A69 !important;
       font-family: "Balgin-Extlight" !important;
       font-weight: 100 !important;
+      padding: 1em 2.5em !important;
+      position: relative;
+      width: 150px;
+
+      &::before{
+        content: "";
+        border: 2px dashed #272A69 !important;
+        padding: 1.7em 6.85em;
+        position: absolute;
+        top: -5px;
+        left: -5px;
+      }
+  }
+
+  a.sqs-button-element--tertiary { /* pink button */
+    background-color: #FC9294 !important;
+    position: relative;
+
+    &::before{
+      border: 2px dashed #FC9294 !important;
+    }
   }
 }
