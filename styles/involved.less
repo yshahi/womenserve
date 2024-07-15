@@ -316,15 +316,28 @@
     background-image:  url("../assets/images/Description_about.png");
     background-position: center top;
     background-size: cover;
-    padding: 5vh;
-    margin-top: -70px;
+    padding: 0;
+    margin-top: -65px;
     z-index: 2;
     position: relative;
 
     #page-6689f653e0721d46e8c04929{
-        width: 1140px !important;
+       /* width: 1140px !important;*/
         margin: 0 auto;
         padding: 4em 0;
+        overflow: hidden;
+        padding-bottom: 0;
+
+        .sqs-row{
+            .sqs-col-12{
+                .sqs-row{
+                    padding: 5em 8em;
+                }
+                .sqs-row:last-child{
+                    background-color: #FC9294;
+                }
+            }
+        }
 
         .sqs-block-content{
             text-align: left;
