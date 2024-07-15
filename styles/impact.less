@@ -124,13 +124,47 @@
                         font-weight: 200;
                         text-transform: none;
                         text-align: left;
+
+                        a{
+                            color: #fff !important;
+                            text-transform: uppercase !important;
+                            border-radius: 0 !important;
+                            font-size: 18px !important;
+                            font-family: "Balgin-Extlight" !important;
+                            font-weight: 100 !important;
+                            padding: 0.7em 2.5em !important;
+                            position: relative;
+                            width: 150px;
+                            text-decoration: none;
+                            display: block;
+                            text-align: center;
+                            margin-top: 3em;
+                            margin-bottom: 1em;
+
+                            &::before{
+                                content: "";
+                                border: 2px dashed #272A69 !important;
+                                padding: 1.7em 6.85em;
+                                position: absolute;
+                                top: -5px;
+                                left: -5px;
+                            }
+                        }
                     }
                 }
             }
             li.accordion-item:nth-child(1){
                 background-color: #D1695A;
 
-                button.accordion-item__click-target{
+                .accordion-item__description{
+
+                    a{
+                        background-color: #FC9294 !important;
+
+                        &::before{
+                            border: 2px dashed #FC9294 !important;
+                        }
+                    }
 
                 }
             }
@@ -144,7 +178,15 @@
                     }
                 }
 
-                button.accordion-item__click-target{
+                .accordion-item__description{
+
+                    a{
+                        background-color: #F8C04C !important;
+
+                        &::before{
+                            border: 2px dashed #F8C04C !important;
+                        }
+                    }
 
                 }
             }
@@ -158,8 +200,16 @@
                     }
                 }
 
-                button.accordion-item__click-target{
-                    
+                .accordion-item__description{
+
+                    a{
+                        background-color: #2354A1 !important;
+
+                        &::before{
+                            border: 2px dashed #2354A1 !important;
+                        }
+                    }
+
                 }
             }
             li.accordion-item:nth-child(4){
@@ -172,8 +222,16 @@
                     }
                 }
                 
-                button.accordion-item__click-target{
-                    
+                .accordion-item__description{
+
+                    a{
+                        background-color: #232A6A !important;
+
+                        &::before{
+                            border: 2px dashed #232A6A !important;
+                        }
+                    }
+
                 }
             }
             li.accordion-item:nth-child(5){
@@ -186,8 +244,16 @@
                     }
                 }
 
-                button.accordion-item__click-target{
-                    
+                .accordion-item__description{
+
+                    a{
+                        background-color: #FC9294 !important;
+
+                        &::before{
+                            border: 2px dashed #FC9294 !important;
+                        }
+                    }
+
                 }
             }
         }
@@ -242,9 +308,9 @@
 /* the Impact */
 
 #the-impact{
-    background-image:url("../assets/images/bg_description-Section.png");
+    background-image:url("../assets/images/bg_the_impact.png");
     background-size: cover;
-    background-position: center top;
+    background-position: center;
     background-repeat: no-repeat;
     padding:2em 0 4em 0;
 
@@ -256,18 +322,18 @@
         text-transform: uppercase;
         font-family: "Balgin-Extlight";
         font-size: 48px;
-        color:#FC9294;
+        color:#FEEFEC;
     }
 
     h3{
-        color:#FC9294;
+        color:#FEEFEC;
         font-size: 48px;
-        font-family: "Balgin-Extlight";
+        font-family: "Balgin-Bold";
         margin: 0;
     }
 
     p{
-        color:#FC9294;
+        color:#FEEFEC;
         font-size: 24px !important;
         line-height: 32px;
         font-family: 'ethic-regular';

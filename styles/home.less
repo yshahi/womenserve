@@ -16,32 +16,34 @@
     .image-card-wrapper{
       left: 15%;
       width: 70%;
-  
-      .image-title-wrapper{
-        padding-top: 2em;
-  
-        p{
-          font-size: 40px !important;
-          line-height: 48px;
-          /*font-family: "Balgin-Extlight";
-          text-transform: uppercase;
-          font-weight: 100;
-          */
-          font-family: 'ethic-regular';
-          text-transform:none;
-          text-align: center !important;
-          color: #FEEFEC !important;
+
+      .image-card{
+        position: relative;
+
+        &:before{
+          content: "";
+          background-image: url(../assets/images/home_banner_logo.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: absolute;
+          top:0;
+          left: 3em;
+          width: 550px;
+          height: 280px;
+          background-position: center;
           opacity: 0.7;
         }
-      }
-      .image-subtitle-wrapper{
-  
-        .image-subtitle{
-          margin-top: 0;
-  
+
+        .image-title-wrapper{
+          padding-top: 2em;
+    
           p{
             font-size: 40px !important;
             line-height: 48px;
+            /*font-family: "Balgin-Extlight";
+            text-transform: uppercase;
+            font-weight: 100;
+            */
             font-family: 'ethic-regular';
             text-transform:none;
             text-align: center !important;
@@ -49,9 +51,24 @@
             opacity: 0.7;
           }
         }
-      }
+        .image-subtitle-wrapper{
+    
+          .image-subtitle{
+            margin-top: 0;
+    
+            p{
+              font-size: 40px !important;
+              line-height: 48px;
+              font-family: 'ethic-regular';
+              text-transform:none;
+              text-align: center !important;
+              color: #FEEFEC !important;
+              opacity: 0.7;
+            }
+          }
+        }
+      } 
     }
-  
   }
   
   /* vision */
@@ -91,13 +108,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    padding:10vh;
-    padding-bottom:15vh;
+    padding:0;
+    padding-bottom:10vh;
     z-index: 100;
     position: relative;
   
     .Index-page-content {
-      padding: 10em;
+      padding: 5em 0;
+      width: 500px;
+      margin: 0 auto;
   
       h2{
         color: #fff;
@@ -183,7 +202,19 @@
     background:  url("../assets/images/bg_Stories-Section.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding:10vh;
+    padding:10vh 0;
+
+    #page-667e5ab8acd3ee331dc39e9c{
+      width: 1140px !important;
+      margin: 0 auto;
+    }
+
+    #block-yui_3_17_2_1_1719559322476_181604{
+
+      .sqs-block-image-figure{
+        padding-top: 10px;
+      }
+    }
   
     #block-667e5ab8acd3ee331dc39e9d{
   
@@ -214,6 +245,11 @@
             width: 180px;
             height: 180px;
             overflow: hidden;
+            transition: all 0.5s linear;
+
+            &:hover{
+              border: 15px solid #fff;
+            }
 
             img{
               object-fit: cover;
@@ -222,7 +258,6 @@
               height: 100% !important;
               left: 0 !important;
               top: 0 !important;
-
             }
           }
 
@@ -253,9 +288,10 @@
                 margin: 0;
                 text-decoration: none;
                 font-weight: 700;
+                transition: all 0.3s linear;
 
                 &:hover{
-                  font-style:normal;
+                  text-decoration: underline;
                 }
               }
             }
@@ -331,13 +367,17 @@
     height: 70vh;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
+
+    #page-667e5ad0315ec9044d940ffa{
+      padding-top: 21em;
+      
+      .sqs-block-button-container{
+        margin: 0 1em;
     
-    .sqs-block-button-container{
-      margin: 0 1em;
-  
-      a{
-        font-weight: 400;
-      }
+        a{
+          color:#FC9294 !important;
+        }
+      } 
     } 
   }
