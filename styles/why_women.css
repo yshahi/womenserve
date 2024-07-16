@@ -1,0 +1,255 @@
+#collection-668133e5a20be947b7143a85 {
+  /* Description section */
+  /* work why women */
+  /* Image grid Block */
+}
+#collection-668133e5a20be947b7143a85 #description-section {
+  background-image: url("../assets/images/bg_description-Section.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding: 10vh;
+  margin-top: -100px;
+  z-index: 2;
+  position: relative;
+}
+#collection-668133e5a20be947b7143a85 #description-section .sqs-html-content p {
+  color: #fff;
+}
+#collection-668133e5a20be947b7143a85 #work-why {
+  background: #fff;
+  padding: 6.25em 0;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d p {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Balgin-Extlight";
+  margin: 0;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d h2 {
+  color: #FC9294;
+  font-size: 7rem;
+  font-weight: bold;
+  font-family: 'ethic-regular';
+  display: inline;
+  margin: 0;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:nth-child(2) .sqs-col-7 {
+  width: 50%;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:nth-child(2) .sqs-col-5 {
+  width: 55%;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:nth-child(2) .sqs-col-5 .sqs-row {
+  column-gap: 0em;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:nth-child(2) .sqs-col-5 .sqs-row .sqs-col-3 {
+  width: 50%;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:nth-child(2) .sqs-col-5 .sqs-row .sqs-col-2 {
+  width: 50%;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:last-child h2,
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:last-child p {
+  font-size: 36px;
+  color: #272A69;
+  line-height: 48px;
+  font-family: 'ethic-regular';
+  text-transform: none;
+  font-weight: 900;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:last-child p {
+  font-weight: 100;
+  font-size: 24px;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row {
+  display: flex;
+  justify-content: center;
+  /*column-gap: 2em;*/
+  margin: 0 auto;
+  width: 1140px !important;
+  margin-bottom: 2em;
+  /* bottom text + button */
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 {
+  /*width: 340px;
+                    margin-right: 30px;*/
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719744917573_7004 {
+  background: url(../assets/images/darkblue_pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  border-radius: 20px;
+  padding: 3.4em 0;
+  margin-right: 30px;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719744917573_7004 .sqs-html-content p {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: "Balgin-Extlight";
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719744917573_7004 .sqs-html-content h2 {
+  color: #FC9294;
+  font-weight: bold;
+  line-height: 7rem;
+  font-family: 'ethic-regular';
+  display: inline;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719745465255_111844 {
+  background: url(../assets/images/darkblue_pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719745465255_111844 h2 {
+  color: #fff;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719745465255_111844 h2 em {
+  vertical-align: super;
+  font-size: 60px;
+  color: #fff;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719745465255_111844 p {
+  color: #fff;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719745465255_79048 {
+  background-image: url(../assets/images/bg_73.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719745465255_79048 h2 {
+  color: #fff;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719745465255_79048 h2 em {
+  vertical-align: super;
+  font-size: 60px;
+  color: #fff;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719745465255_79048 p {
+  color: #fff;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719745465255_157890 {
+  background: url(../assets/images/5-10BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  border-radius: 20px;
+  padding: 3.7em 0;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-5 #block-yui_3_17_2_1_1719745465255_157890 h2 {
+  line-height: 100px;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 {
+  width: 770px;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1719744917573_18998,
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1719745465255_44883,
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1720268321828_113777 {
+  background-image: url(../assets/images/about_pinkBG.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 2em;
+  align-content: center;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1720268321828_113704 {
+  display: none;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1719744917573_18998 {
+  padding: 4em 2em;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1719744917573_18998 p {
+  text-transform: none;
+  font-size: 68px;
+  line-height: 72px;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1719745465255_44883 {
+  background-image: url(../assets/images/marry_BG.png);
+  padding: 2em;
+  margin-bottom: 2em;
+  margin-right: 30px;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1719745465255_44883 h2 {
+  font-family: "Balgin-reg";
+  font-size: 48px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #272A69;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1719745465255_44883 h2 strong {
+  font-size: 130px;
+  font-family: 'ethic-regular';
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1719745465255_44883 p {
+  font-family: "Balgin-Extlight";
+  font-size: 48px;
+  margin: 0;
+  text-transform: uppercase;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1719745465255_44883 p:nth-child(2) {
+  font-family: "Balgin-reg";
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1720268321828_113777 {
+  background-image: url(../assets/images/about_pinkBG.png);
+  padding: 2em 0.25em;
+  margin-right: 30px;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1720268321828_113777 h2 {
+  font-family: 'ethic-regular';
+  font-size: 82px;
+  margin: 0;
+  color: #272A69;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 #block-yui_3_17_2_1_1720268321828_113777 p {
+  font-family: "Balgin-Extlight";
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 0;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 p {
+  font-size: 48px;
+  color: #fff;
+  font-family: 'ethic-regular';
+  font-size: 90px;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-7 p em {
+  color: #272A69;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-8 #block-yui_3_17_2_1_1719745465255_44883 {
+  background: url(../assets/images/marry_BG.png) no-repeat;
+  background-position: center center;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-8 #block-yui_3_17_2_1_1720268321828_113777 {
+  background: url(../assets/images/about_pinkBG.png) no-repeat;
+  background-position: center center;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-4 .sqs-col-2:first-child {
+  background: url(../assets/images/bg_whySection.png) no-repeat;
+  background-position: center center;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-4 .sqs-col-2:last-child {
+  background: url(../assets/images/bg_73.png) no-repeat;
+  background-position: center center;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row .sqs-col-4 #block-yui_3_17_2_1_1719745465255_157890 {
+  background: url(../assets/images/5-10BG.png) no-repeat;
+  background-position: center center;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row #block-yui_3_17_2_1_1719745465255_247112 {
+  width: 600px;
+  margin: 0 auto;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row #block-yui_3_17_2_1_1719745465255_247112 h2,
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row #block-yui_3_17_2_1_1719745465255_247112 p {
+  font-size: 24px;
+  line-height: normal;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:nth-child(2) .sqs-col-5 .sqs-row {
+  width: 100% !important;
+}

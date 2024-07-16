@@ -60,3 +60,8 @@ document.addEventListener('DOMContentLoaded', () => {
     body.classList.remove('no-scroll');
   }
 }); */
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  var addClass = document.querySelector('#page-66813991d3276b1e70d1a98d .sqs-row:last-child');
+  addClass.classList.add("image_grid");
+});
