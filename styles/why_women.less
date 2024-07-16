@@ -21,7 +21,7 @@
     /* work why women */
     #work-why{
         background: #fff;
-        padding: 6.25em 0;
+        padding:0 0 6.25em 0;
 
         #page-66813991d3276b1e70d1a98d{
 
@@ -325,18 +325,49 @@
                 }
             }
         }
-    }
 
-    /* Image grid Block */
-    #page-66813991d3276b1e70d1a98d{
+            /* Image grid Block */
+        #page-66813991d3276b1e70d1a98d{
 
-        .image_grid{
-            
-            .sqs-col-12{
+            .sqs-row:first-child, .sqs-row:nth-child(2){
 
+                .sqs-col-5, .sqs-col-7{
+                    display: none !important;
+                }
                 
             }
 
+            .image_grid{
+                
+                .sqs-col-12{
+
+                    .image-block{
+                        padding: 0;
+                    }
+
+                    .sqs-row:nth-child(2){
+
+                        .sqs-col-6:nth-child(2){
+
+                            .sqs-row{
+                                width: auto !important;
+
+                                .sqs-col-1{
+                                    width: 55%;
+                                }
+
+                                .sqs-col-5{
+                                    display: block !important;
+                                }
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
         }
     }
 }

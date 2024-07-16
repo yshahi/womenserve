@@ -1,7 +1,6 @@
 #collection-668133e5a20be947b7143a85 {
   /* Description section */
   /* work why women */
-  /* Image grid Block */
 }
 #collection-668133e5a20be947b7143a85 #description-section {
   background-image: url("../assets/images/bg_description-Section.png");
@@ -18,7 +17,8 @@
 }
 #collection-668133e5a20be947b7143a85 #work-why {
   background: #fff;
-  padding: 6.25em 0;
+  padding: 0 0 6.25em 0;
+  /* Image grid Block */
 }
 #collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d p {
   font-size: 24px;
@@ -252,4 +252,22 @@
 }
 #collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:nth-child(2) .sqs-col-5 .sqs-row {
   width: 100% !important;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:first-child .sqs-col-5,
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:nth-child(2) .sqs-col-5,
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:first-child .sqs-col-7,
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .sqs-row:nth-child(2) .sqs-col-7 {
+  display: none !important;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .image_grid .sqs-col-12 .image-block {
+  padding: 0;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .image_grid .sqs-col-12 .sqs-row:nth-child(2) .sqs-col-6:nth-child(2) .sqs-row {
+  width: auto !important;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .image_grid .sqs-col-12 .sqs-row:nth-child(2) .sqs-col-6:nth-child(2) .sqs-row .sqs-col-1 {
+  width: 55%;
+}
+#collection-668133e5a20be947b7143a85 #work-why #page-66813991d3276b1e70d1a98d .image_grid .sqs-col-12 .sqs-row:nth-child(2) .sqs-col-6:nth-child(2) .sqs-row .sqs-col-5 {
+  display: block !important;
 }
