@@ -131,7 +131,7 @@
                         font-size: 20px;
                         font-style: italic;
                         padding-left: 20px;
-                        font-family: Helvetica;
+                        font-family: "Balgin-Extlight";
                     }
         
                     .accordion-item__title{
@@ -148,14 +148,25 @@
                      .accordion-icon-container{
 
                         .plus{
-                            background-image:  url("../assets/images/arrow_close.png");
+                            // background-image:  url("../assets/images/arrow_close.png");
                             width: 20px;
                             height: 20px;
                             background-size: contain;
                             background-repeat: no-repeat;
 
                             &> div{
-                                display: none;
+                                // display: none;
+                                color: #fff;
+                                height: 2px !important;
+                            }
+                            .plus__horizontal-line{
+                                transform: rotate(145deg);
+                                left: -14px;
+                            }
+                            .plus__vertical-line{
+                                transform: rotate(-145deg);
+                                left: -15px;
+                                top: -3px;
                             }
                         }   
                     }
@@ -167,14 +178,26 @@
                     .accordion-icon-container{
 
                         .plus{
-                            background-image:  url("../assets/images/arrow_open.png");
+                            // background-image:  url("../assets/images/arrow_open.png");
                             width: 20px;
                             height: 20px;
                             background-size: contain;
                             background-repeat: no-repeat;
     
                             &> div{
-                                display: none;
+                                // display: none;
+                                color: #fff;
+                                height: 2px !important;
+                            }
+
+                            .plus__horizontal-line{
+                                transform: rotate(-45deg);
+                                left: -14px;
+                            }
+                            .plus__vertical-line{
+                                transform: rotate(45deg);
+                                left: -27px;
+                                top: 9px;
                             }
                         }
                     }
