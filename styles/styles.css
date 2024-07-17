@@ -44,7 +44,7 @@
 @font-face {
   font-family: "ethic-boldItalic";
   src: url("../assets/fonts/EthicSerif-BoldItalic.otf") format("otf") format("truetype");
-  font-weight: 300;
+  font-weight: 700;
   font-style: italic;
 }
 @font-face {
