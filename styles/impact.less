@@ -66,11 +66,13 @@
                         height: 30px;
                         background-size: cover;
                         left: 1em;
+                        top: 1.4em;
                     }
         
                     .accordion-item__title{
                         text-transform: uppercase;
-                        font-family: "Balgin-light";
+                        font-family: "Balgin-Extlight";
+                        font-weight: 100;
                         font-size: 28px;
                         color:#fff;
                         letter-spacing: 2;
@@ -81,14 +83,25 @@
                     .accordion-icon-container{
 
                         .plus{
-                            background-image:  url("../assets/images/arrow_close.png");
+                            /*background-image:  url("../assets/images/arrow_close.png");*/
                             width: 20px;
                             height: 20px;
                             background-size: contain;
                             background-repeat: no-repeat;
 
                             &> div{
-                                display: none;
+                                /*display: none;*/
+                                color: #fff;
+                                height: 2px !important;
+                            }
+                            .plus__horizontal-line{
+                                transform: rotate(145deg);
+                                left: -14px;
+                            }
+                            .plus__vertical-line{
+                                transform: rotate(-145deg);
+                                left: -15px;
+                                top: -3px;
                             }
                         }   
                     }
@@ -100,14 +113,25 @@
                     .accordion-icon-container{
 
                         .plus{
-                            background-image:  url("../assets/images/arrow_open.png");
+                            /*background-image:  url("../assets/images/arrow_open.png");*/
                             width: 20px;
                             height: 20px;
                             background-size: contain;
                             background-repeat: no-repeat;
     
                             &> div{
-                                display: none;
+                                // display: none;
+                                color: #fff;
+                                height: 2px !important;
+                            }
+                            .plus__horizontal-line{
+                                transform: rotate(-45deg);
+                                left: -14px;
+                            }
+                            .plus__vertical-line{
+                                transform: rotate(45deg);
+                                left: -27px;
+                                top: 9px;
                             }
                         }
                     }

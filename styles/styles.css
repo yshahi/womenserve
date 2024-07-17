@@ -1,44 +1,12 @@
 @font-face {
-  font-family: "Balgin-reg";
-  src: url("../assets/fonts/Balgin-Regular.woff") format("woff"), url("../assets/fonts/Balgin-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Balgin-regIt";
-  src: url("../assets/fonts/Balgin-RegularItalic.woff") format("woff"), url("../assets/fonts/Balgin-RegularItalic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Balgin-bold";
-  src: url("../assets/fonts/Balgin-Bold.woff") format("woff"), url("../assets/fonts/Balgin-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Balgin-boldIt";
-  src: url("../assets/fonts/Balgin-BoldItalic.woff") format("woff"), url("../assets/fonts/Balgin-BoldItalic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
   font-family: "Balgin-Extlight";
-  src: url("../assets/fonts/Balgin-extralight.otf") format("woff");
-  font-weight: 300;
-  font-style: normal;
+  src: url("../assets/fonts/BalginDisplay-ExtraLight.otf") format("otf") format("truetype");
+  font-weight: 100;
 }
 @font-face {
   font-family: "Balgin-light";
-  src: url("../assets/fonts/Balgin-Light.woff") format("woff"), url("../assets/fonts/Balgin-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Balgin-lightIt";
-  src: url("../assets/fonts/Balgin-LightItalic.woff") format("woff"), url("../assets/fonts/Balgin-LightItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
+  src: url("../assets/fonts/BalginDisplay-Light.otf") format("otf") format("truetype");
+  font-weight: 200;
 }
 /* Body Font */
 @font-face {
@@ -66,7 +34,7 @@ body {
   opacity: 1;
   text-align: center;
   /*overflow: hidden;*/
-  font-family: "Balgin", Helvetica, Arial, sans-serif;
+  font-family: "Balgin-light", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   background: rgb(40, 43, 102) url("../assets/svgs/ws-bg.svg") no-repeat;
@@ -289,4 +257,13 @@ a, a:hover{
       border: 2px dashed #FC9294 !important;
     }
   }
+}
+
+/* Accodion Transition Effect */
+.accordion-icon-container {
+  transition: transform 0.3s ease;
+}
+
+.accordion-icon-container.open {
+  transform: rotate(180deg);
 }
