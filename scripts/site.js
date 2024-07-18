@@ -66,18 +66,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var addClass = document.querySelector('#page-66813991d3276b1e70d1a98d .sqs-row:last-child');
   addClass.classList.add("image_grid");
 });
-
-
-/* Accodion Effect */
-document.addEventListener('DOMContentLoaded', function() {
-  var accordions = document.querySelectorAll('.accordion-header');
-
-  accordions.forEach(function(accordion) {
-      accordion.addEventListener('click', function() {
-          var icon = this.querySelector('.accordion-icon-container');
-          if (icon) {
-              icon.classList.toggle('open');
-          }
-      });
-  });
-});

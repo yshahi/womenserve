@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Balgin-Extlight";
-  src: url("../assets/fonts/BalginDisplay-ExtLight.otf") format("otf") format("truetype");
+  src: url("../assets/fonts/BalginDisplay-ExtraLight.otf") format("otf") format("truetype");
   font-weight: 100;
 }
 @font-face {
@@ -18,7 +18,7 @@
 @font-face {
   font-family: "ethic-regular";
   src: url("../assets/fonts/EthicSerif-Regular.otf") format("otf") format("truetype");
-  font-weight: 300;
+  font-weight: 200;
   font-style: normal;
 }
 html {
@@ -66,7 +66,7 @@ a.button {
   margin: 0;
   padding: 13px 32px 12px 32px;
   color: rgb(40, 43, 102);
-  font-family: "Balgin", Helvetica, Arial, sans-serif;
+  font-family: "Balgin-Extlight", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 14px;
   text-transform: uppercase;
@@ -131,7 +131,7 @@ a.button:hover {
   margin: 0 0 0 -100px;
   padding: 0;
   color: rgb(236, 151, 150);
-  font-family: "Balgin", Helvetica, Arial, sans-serif;
+  font-family: "Balgin-Extlight", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 12px;
   text-transform: uppercase;
