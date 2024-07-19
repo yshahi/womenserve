@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Balgin-Extlight";
   src: url("../assets/fonts/BalginDisplay-ExtraLight.otf") format("otf") format("truetype");
   font-weight: 100;
@@ -7,7 +7,20 @@
   font-family: "Balgin-light";
   src: url("../assets/fonts/BalginDisplay-Light.otf") format("otf") format("truetype");
   font-weight: 200;
+} */
+
+@font-face {
+  font-family: "Balgin-Extlight";
+  src: url("../assets/fonts/Balgin-ExtraLight.otf");
+  font-weight: 100;
 }
+@font-face {
+  font-family: "Balgin-light";
+  src: url("../assets/fonts/Balgin-Light.otf");
+  font-weight: 200;
+}
+
+
 /* Body Font */
 @font-face {
   font-family: "ethic-boldItalic";
@@ -66,7 +79,7 @@ a.button {
   margin: 0;
   padding: 13px 32px 12px 32px;
   color: rgb(40, 43, 102);
-  font-family: "Balgin-Extlight", Helvetica, Arial, sans-serif;
+  font-family: "Balgin-light", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 14px;
   text-transform: uppercase;
@@ -131,7 +144,7 @@ a.button:hover {
   margin: 0 0 0 -100px;
   padding: 0;
   color: rgb(236, 151, 150);
-  font-family: "Balgin-Extlight", Helvetica, Arial, sans-serif;
+  font-family:"Balgin-light", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 12px;
   text-transform: uppercase;
@@ -199,7 +212,7 @@ a.button:hover {
 
 
 a, a:hover{
-  font-family: 'Balgin-light';
+  font-family: "Balgin-light";
 }
 
 
@@ -217,8 +230,42 @@ a, a:hover{
     margin-top: -175px;
     border-radius: 40px 40px 0 0;
 
-    .intrinsic{
-      max-width: unset !important;
+    /* Inner container all Page => Fixed width: 1140px */
+    .Index-page-content {
+      padding: 5em 10em;
+      max-width:1140px;
+      margin: 0 auto;
+
+
+      /* Headings and Paragraphs */
+      h2{
+        font-size: 48px;
+        line-height: 70px;
+        font-family: "Balgin-Extlight";
+        text-transform: uppercase;
+        font-weight: 100;
+      }
+      p{
+        font-size: 36px;
+        line-height: 54px;
+        font-family: 'ethic-regular';
+        font-weight: 300;
+        padding-bottom: 2em;
+      }
+
+      /* Image Block */
+      .intrinsic{
+        max-width: unset !important;
+      }
+    }
+  }
+
+  /* Photo section => All page */
+  #photo-section, #photo-section-why, #photo-about, #accordion-impact, #photo-impact, 
+  #sponsors-involved, #accordion-involved, #photo-involved, #additional-section{
+    .Index-page-content{
+      padding:0;
+      max-width:100%;
     }
   }
 }
@@ -232,12 +279,12 @@ a, a:hover{
       color: #fff !important;
       text-transform: uppercase !important;
       border-radius: 0 !important;
-      font-size: 18px !important;
-      font-family: "Balgin-Extlight" !important;
+      font-size: 22px !important;
+      font-family:"Balgin-light" !important;
       font-weight: 100 !important;
-      padding: 1em 2.5em !important;
+      padding: 1.05em 2.4em !important;
       position: relative;
-      width: 150px;
+      width: 190px;
 
       &::before{
         content: "";

@@ -9,13 +9,12 @@ $black: rgba(0,0,0,1);
 
 // SASS Fonts
 @font-face {
-	font-family: 'Balgin';
-	src: url('../assets/fonts/Balgin-Regular.woff') format('woff'),
-		url('../assets/fonts/Balgin-Regular.ttf') format('truetype');
-	font-weight: normal;
+	font-family: "Balgin-light";
+	src: url('../assets/fonts/BalginDisplay-Light.otf') format('otf');
+	font-weight: 100;
 	font-style: normal;
 }
-
+/*
 @font-face {
 	font-family: 'Balgin';
 	src: url('../assets/fonts/Balgin-RegularItalic.woff') format('woff'),
@@ -54,7 +53,7 @@ $black: rgba(0,0,0,1);
 		url('../assets/fonts/Balgin-LightItalic.ttf') format('truetype');
 	font-weight: 300;
 	font-style: italic;
-}
+} */
 
 // SASS MIXINS ///////////////////////////////////////////////////////
 
@@ -132,7 +131,7 @@ body {
 	opacity: 1;
 	text-align: center;
 	overflow: hidden;
-	font-family: 'Balgin', Helvetica, Arial, sans-serif;
+	font-family: "Balgin-light", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	background: $blue url('../assets/svgs/ws-bg.svg') no-repeat;
@@ -160,7 +159,7 @@ a.button {
 	margin: 0;
 	padding: 13px 32px 12px 32px;
 	color: $blue;
-	font-family: 'Balgin', Helvetica, Arial, sans-serif;
+	font-family: "Balgin-light", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -233,7 +232,7 @@ a.button {
 		margin: 0 0 0 -100px;
 		padding: 0;
 		color: $pink;
-		font-family: 'Balgin', Helvetica, Arial, sans-serif;
+		font-family: "Balgin-light", Helvetica, Arial, sans-serif;
 		font-weight: 300;
 		font-size: 12px;
 		text-transform: uppercase;
