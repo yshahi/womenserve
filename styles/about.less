@@ -15,6 +15,24 @@
             }
         }
     }
+
+    .menu-btn__burger{
+        background: #272A69;
+
+        &::before, &::after{
+            background: #272A69;
+        }
+    }
+    .open{
+        .menu-btn__burger{
+            background: #fff;
+    
+            &::before, &::after{
+                background: #fff;
+            }
+        }
+    }
+
     .content-container{
         margin-top: -75px;
     }
@@ -157,7 +175,7 @@
     }
 
     #directors-about{
-        background-image: url(../assets/images/Stories\ Section_bg_about.png);
+        background-image: url(../assets/images/member_Section_bg_about.png);
 
         .summary-thumbnail-outer-container{
             .summary-thumbnail {
