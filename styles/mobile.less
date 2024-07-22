@@ -29,4 +29,73 @@
       padding: 0;
     }
   }
+
+@media screen and (max-width: 430px) {
+
+  /* Main Section */
+  .main-wrapper{
+    border:20px solid #ddd;
+    border-radius: 60px;
+    position: relative;
+
+    .content-container{
+      margin-top: -175px;
+      border-radius: 40px 40px 0 0;
+
+      h2{
+        font-size: 28px !important;
+        line-height: 32px !important;
+      }
+      h3{
+        font-size: 24px !important;
+        line-height: 28px !important; 
+      }
+      p{
+        font-size: 22px !important;
+        line-height: 26px !important;
+      }
+
+      /* Inner container all Page => Fixed width: 1140px */
+      section.Index-page{
+        padding: 0 1em !important;
+
+        .Index-page-content {
+          padding: 5em 0;
+          max-width:100%;
+          margin: 0 auto;
+        }
+      }
+      /* banner + photo section all zero padding */
+      #banner-home, #photo-section{
+        padding: 0 !important;
+      }
+
+      /* Blog section all */
+      .summary-item-list, .summary-item{
+        grid-template-columns: 1fr !important;
+      }
+
+      /* ==============
+           Home page 
+         ============== */
+
+         /* work section */
+      #our-work{
+        .sqs-col-12{
+          flex-direction: column-reverse;
+          align-items: center;
+
+          .sqs-block {
+            text-align: center;
+
+            h2, p{
+              text-align: center;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
   
