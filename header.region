@@ -16,7 +16,7 @@
             {.section website}
                 <h1 class="site-title-heading" data-content-field="site-title">
                     <!--<a href="/" class="site-title-link">{siteTitle}</a> -->
-                    <a href="#" class="site-title-link"><img src="https://images.squarespace-cdn.com/content/v1/66616a4166888e53038e026c/3af2d02f-6352-48ef-a412-aafb481705fe/WomenServe-Logo.png?format=1000w" /></a>
+                    <a href="/" class="site-title-link"><img src="https://images.squarespace-cdn.com/content/v1/66616a4166888e53038e026c/3af2d02f-6352-48ef-a412-aafb481705fe/WomenServe-Logo.png?format=1000w" /></a>
                 </h1>
             {.end}
 
