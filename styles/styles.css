@@ -271,10 +271,10 @@ a, a:hover{
 }
 
 /* Buttons */
-.sqs-block-button-container, .sqs-donate-button-wrapper, .form-button-wrapper{
+.sqs-block-button-container, .sqs-donate-button-wrapper, .form-button-wrapper, .lightbox-handle-wrapper{
   
 
-  a.sqs-button-element--primary, a.sqs-button-element--tertiary, .sqs-donate-button, .form-submit-button{ /* blue button */
+  a.sqs-button-element--primary, a.sqs-button-element--tertiary, .sqs-donate-button, .form-submit-button, .lightbox-handle{ /* blue button */
       background-color: #272A69 !important;
       color: #fff !important;
       text-transform: uppercase !important;
@@ -284,7 +284,7 @@ a, a:hover{
       font-weight: 100 !important;
       padding: 1.05em 2.4em !important;
       position: relative;
-      width: 190px;
+      width: 190px !important;
 
       &::before{
         content: "";
