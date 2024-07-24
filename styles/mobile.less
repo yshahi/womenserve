@@ -37,6 +37,7 @@
     border:20px solid #ddd;
     border-radius: 60px;
     position: relative;
+    overflow: hidden;
 
     .content-container{
       margin-top: -175px;
@@ -78,8 +79,33 @@
       /* ==============
            Home page 
          ============== */
+      
+      #banner-home{
+        .image-card-wrapper{
+          left: 15%;
+          width: 70%;
+    
+          .image-card{
+            position: relative;
+    
+            &:before{
+              content: "";
+              background-image: url(../assets/images/home_banner_logo.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: absolute;
+              bottom:0;
+              left: 3em;
+              width: 200px;
+              height: 280px;
+              background-position: center;
+              opacity: 0.7;
+            }
+          }
+        }
+      }
 
-         /* work section */
+      /* work section */
       #our-work{
         .sqs-col-12{
           flex-direction: column-reverse;
