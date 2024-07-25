@@ -66,6 +66,7 @@
     .sqs-row{
         .sqs-col-4{
            a.sqs-button-element--primary{
+            color: #FC9294 !important;
             
                 &::before{
                     padding: 2.2em 6.85em;
@@ -73,6 +74,7 @@
             }
             .lightbox-handle{
                 width: 297px !important;
+                color: #FC9294 !important;
 
                 &::before{
                     padding: 2.2em 6.85em;
@@ -83,10 +85,35 @@
 }
 
 /* Pop-up form */
-.lightbox-content{
-    .form-submit-button{
-        &::before{
-            padding: 1.7em 4.45em;
+.sqs-modal-lightbox-content{
+
+    .lightbox-background{
+        opacity: 0.8;
+    }
+
+    .lightbox-content{
+
+        .form-wrapper{
+
+            .form-title{
+                font-size: 28px !important;
+                text-transform: uppercase;
+            }
+
+            .field, .phone{
+                padding-bottom: 10px;
+                text-align: left;
+
+                .caption-text, .title{
+                    padding-bottom: 10px;
+                }
+            }
+
+            .form-submit-button{
+                &::before{
+                    padding: 1.7em 4.45em;
+                }
+            }
         }
     }
 }
@@ -385,7 +412,7 @@
 
 
         .sqs-row{
-            width: 1140px !important;
+            width: 1240px !important;
             margin: 0 auto;
 
             .sqs-col-12{
