@@ -19,6 +19,11 @@
   src: url("../assets/fonts/Balgin-Light.otf");
   font-weight: 200;
 }
+@font-face {
+  font-family: "Balgin-Bold";
+  src: url("../assets/fonts/Balgin-Bold.woff");
+  font-weight: 700;
+}
 
 
 /* Body Font */
