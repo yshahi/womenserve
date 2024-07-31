@@ -158,6 +158,10 @@
       max-width: fit-content;
       margin: 0;
 
+      &:hover{
+        border: 2px dashed #ED9896 !important;
+      }
+
       a{
         background-color: #272A69 !important;
         color: #fff !important;
@@ -171,6 +175,12 @@
         width: 150px !important;
         display: block;
         text-align: center;
+
+        &:hover{
+          background-color: #ED9896 !important;
+          color: #232A6A !important;
+          opacity: 1 !important;
+        }
       }
     }
   }
@@ -253,6 +263,7 @@
               color:#FC9294;
               font-size: 22px;
               font-family: "Balgin-light";
+              font-style: italic;
               text-align: left;
               font-weight: 100;
               margin: 0;
@@ -271,11 +282,11 @@
               text-align: left;
               margin: 0;
               text-decoration: none;
-              font-weight: 700;
+              font-weight: 500;
               transition: all 0.3s linear;
 
               &:hover{
-                text-decoration: underline;
+                color: #fff;
               }
             }
           }
@@ -363,6 +374,16 @@
   
       a{
         color:#FC9294 !important;
+
+        &:hover{
+          background-color: #ED9896 !important;
+          color: #232A6A !important;
+          opacity: 1 !important;
+  
+          &::before{
+            border: 2px dashed #ED9896 !important;
+          }
+        }
       }
     } 
   } 
