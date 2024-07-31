@@ -291,6 +291,16 @@ a, a:hover{
       position: relative;
       width: 190px !important;
 
+      &:hover{
+        background-color: #2354A1 !important;
+        color: #FEEFEC !important;
+        opacity: 1 !important;
+
+        &::before{
+          border: 2px dashed #2354A1 !important;
+        }
+      }
+
       &::before{
         content: "";
         border: 2px dashed #272A69 !important;
