@@ -39,6 +39,13 @@
   font-weight: 200;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "ethic-light";
+  src: url("../assets/fonts/EthicSerif-Light.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
 html {
   /*overflow: auto;*/
 }

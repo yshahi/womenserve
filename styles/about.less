@@ -93,6 +93,7 @@
     #team-about, #directors-about{
         padding: 2em 0 0;
         background-image: url(../assets/images/bg_Stories-Section.jpg);
+        background-size: cover;
 
         .image-block-outer-wrapper{
             figure.intrinsic{
@@ -172,6 +173,33 @@
             color: #fff;
             text-align: left;
             font-weight: 100 !important;
+        }
+
+        /* Meet the team */
+        #block-0a4b71680ea55308d70b, #block-6695e816d3bfea2a36b8885c{
+            h2{
+                position: relative;
+                padding-left: 15%;
+
+                &::before{
+                    background-image: url(../assets/images/logo_white.png);
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    width: 95px;
+                    height: 50px;
+                    top: 5px;
+                    left: 0;
+                    content: "";
+                }
+            }
+        }
+
+        #block-6695e816d3bfea2a36b8885c{
+            h2{
+                &::before{
+                    background-image: url(../assets/images/logo_blue.png);
+                }
+            }
         }
     }
 

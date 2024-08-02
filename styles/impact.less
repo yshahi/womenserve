@@ -155,6 +155,11 @@
                             margin-top: 3em;
                             margin-bottom: 1em;
 
+                            mark{
+                                background-color: transparent !important;
+                                color: #fff !important;
+                            }
+
                             &::before{
                                 content: "";
                                 border: 2px dashed #272A69 !important;
@@ -162,6 +167,15 @@
                                 position: absolute;
                                 top: -5px;
                                 left: -5px;
+                            }
+
+                            &:hover{
+                                background-color: #232A6A !important;
+                                color: #fff !important;
+
+                                &::before{
+                                    border: 2px dashed #232A6A !important;
+                                }
                             }
                         }
                     }
@@ -200,6 +214,14 @@
                         &::before{
                             border: 2px dashed #F8C04C !important;
                         }
+
+                        &:hover{
+                            background-color: #FC9294 !important;
+
+                            &::before{
+                                border: 2px dashed #FC9294 !important;
+                            }
+                        }
                     }
 
                 }
@@ -221,6 +243,14 @@
 
                         &::before{
                             border: 2px dashed #2354A1 !important;
+                        }
+
+                        &:hover{
+                            background-color: #D1695A !important;
+
+                            &::before{
+                                border: 2px dashed #D1695A !important;
+                            }
                         }
                     }
 
@@ -244,6 +274,14 @@
                         &::before{
                             border: 2px dashed #232A6A !important;
                         }
+
+                        &:hover{
+                            background-color: #2354A1 !important;
+
+                            &::before{
+                                border: 2px dashed #2354A1 !important;
+                            }
+                        }
                     }
 
                 }
@@ -265,6 +303,13 @@
 
                         &::before{
                             border: 2px dashed #FC9294 !important;
+                        }
+                        &:hover{
+                            background-color: #F8C04C !important;
+
+                            &::before{
+                                border: 2px dashed #F8C04C !important;
+                            }
                         }
                     }
 
@@ -387,6 +432,7 @@
                         border-radius: 50%;
                         overflow: hidden;
                         border: 15px solid #FC9294;
+                        object-fit: cover;
                     }
                 }
             }
