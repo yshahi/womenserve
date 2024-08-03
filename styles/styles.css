@@ -29,9 +29,15 @@
 /* Body Font */
 @font-face {
   font-family: "ethic-boldItalic";
-  src: url("../assets/fonts/EthicSerif-BoldItalic.otf") format("otf") format("truetype");
+  src: url("../assets/fonts/EthicSerif-BoldItalic.ttf");
   font-weight: 700;
   font-style: italic;
+}
+@font-face {
+  font-family: "ethic-medium";
+  src: url("../assets/fonts/EthicSerif-Medium.otf");
+  font-weight: 200;
+  font-style: normal;
 }
 @font-face {
   font-family: "ethic-regular";
@@ -39,7 +45,6 @@
   font-weight: 200;
   font-style: normal;
 }
-
 @font-face {
   font-family: "ethic-light";
   src: url("../assets/fonts/EthicSerif-Light.ttf");
@@ -260,7 +265,7 @@ a, a:hover{
       p{
         font-size: 36px;
         line-height: 54px;
-        font-family: 'ethic-regular';
+        font-family: "ethic-light";
         font-weight: 300;
         padding-bottom: 2em;
       }

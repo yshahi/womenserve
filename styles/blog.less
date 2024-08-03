@@ -11,39 +11,124 @@
 
                 h2{
                     color:#fff;
-                    font-size: 36px;
+                    font-size: 44px;
                     line-height: 62px;
                     font-family: "Balgin-Extlight";
                     text-transform: uppercase;
                     font-weight: 100;
+                    //position: relative;
+                    //padding-left: 15%;
+
+                    /* &::before{
+                        background-image: url(../assets/images/logo_white.png);
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        width: 95px;
+                        height: 50px;
+                        top: 5px;
+                        left: 0;
+                        content: "";
+                    } */
                 }
                 
 
                 .summary-block-wrapper{
                     padding:3em 2em 2em;
-                    background: #fff;
                     border-radius: 30px;
-
-                    .summary-item{
-                        margin-bottom: 0 !important;
-
-                        p, .summary-title-link{
-                            color: #272A69;
-                            font-family: 'ethic-regular' !important;
-                            text-decoration: none;
-                            font-size: 24px;
-                        }
-                        .summary-read-more-link{
-                            color: #272A69;
-                            font-size: 14px;
-                            line-height: 26px;
-                            text-decoration: none;
-        
+                    width: 1140px;
+                    margin: 0 auto;
+                    
+                    .summary-item-list, .summary-item{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                  
+                        .summary-item{
+                          width: auto !important;
+                          margin-bottom: 10% !important;
+                          margin-right: 5% !important;
+                  
+                          .summary-thumbnail-outer-container{
+                            border-radius: 50% !important;
+                            border: 15px solid #FC9294;
+                            width: 180px;
+                            height: 180px;
+                            overflow: hidden;
+                            transition: all 0.5s linear;
+                  
                             &:hover{
-                                text-decoration: underline;
+                              border: 15px solid #fff;
                             }
+                  
+                            img{
+                              object-fit: cover;
+                              transform: scale(1.2);
+                              width: 100% !important;
+                              height: 100% !important;
+                              left: 0 !important;
+                              top: 0 !important;
+                            }
+                          }
+                  
+                          .summary-content{
+                            width: 300px;
+                  
+                            .summary-metadata-item{
+                              a{
+                                color:#FC9294;
+                                font-size: 22px;
+                                font-family: "Balgin-light";
+                                font-style: italic;
+                                text-align: left;
+                                font-weight: 100;
+                                margin: 0;
+                                line-height: 2;
+                                text-transform: lowercase;
+                              }
+                            }
+                  
+                            .summary-title{
+                                text-align: left !important;
+                                line-height: 2.3em;
+                  
+                              a.summary-title-link{
+                                color:#FC9294;
+                                font-size: 52px;
+                                font-family: "ethic-boldItalic";
+                                font-style:italic;
+                                text-align: left;
+                                margin: 0;
+                                text-decoration: none;
+                                font-weight: 500;
+                                transition: all 0.3s linear;
+                  
+                                &:hover{
+                                  color: #fff;
+                                }
+                              }
+                            }
+                  
+                            .summary-excerpt{
+                  
+                              p{
+                                color:#fff;
+                                text-align: left;
+                                font-size: 22px;
+                                line-height: 1.4em;
+                                letter-spacing: 1.5px;
+                                font-family: "ethic-light";
+                              }
+                            }
+                            .summary-read-more-link{
+                                text-align: left;
+                                color:#FC9294;
+                                font-size: 22px;
+                                font-weight: 100;
+                                text-decoration: none;
+                                padding-top: 10px;
+                            }
+                          }
                         }
-                    } 
+                      }
                 }   
             }
         }
@@ -90,7 +175,7 @@
 
             p{
                 color: #272A69;
-                font-family: 'ethic-regular' !important;
+                font-family: "ethic-light" !important;
                 text-decoration: none;
                 font-size: 24px;  
             }
