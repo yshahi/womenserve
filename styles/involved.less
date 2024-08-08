@@ -107,12 +107,35 @@
                 text-transform: uppercase;
             }
 
+            .p_cAb_GDWwkuh8_Ohohu{
+                display: none;
+            }
+
+            .phone{
+                .p_cAb_GDWwkuh8_Ohohu{
+                    display:block;
+                }
+            }
+
             .field, .phone{
                 padding-bottom: 10px;
                 text-align: left;
 
                 .caption-text, .title{
                     padding-bottom: 10px;
+                    font-size: 15px;
+                }
+                .caption-text{
+                    position: relative;
+
+                    &::after{
+                        content: "(required)";
+                        position: absolute;
+                        top: 0;
+                        right: -75px;
+                        color: #747474;
+                        font-size: 13px;
+                    }
                 }
             }
 
@@ -120,6 +143,24 @@
                 &::before{
                     padding: 1.7em 4.45em;
                 }
+            }
+        }
+
+        .lightbox-close{
+            font-family: "Balgin-Extlight" !important;
+            font-size: 48px !important;
+            font-weight: 100;
+            z-index: 99;
+            width: 45px !important;
+            right: -46px !important;
+            top: 0px !important;
+            height: 45px;
+            line-height: normal !important;
+            background-color: #fff;
+            color:#272A69 !important;
+
+            &:hover{
+                color: #9B9B9B !important;
             }
         }
     }
