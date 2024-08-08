@@ -239,13 +239,13 @@ a, a:hover{
 
 /* Main Section */
 .main-wrapper{
-  border:20px solid #ddd;
-  border-radius: 60px;
+  /*border:20px solid #ddd;
+  border-radius: 60px; */
   position: relative;
 
   .content-container{
     margin-top: -175px;
-    border-radius: 40px 40px 0 0;
+    /*border-radius: 40px 40px 0 0;*/
 
     /* Inner container all Page => Fixed width: 1140px */
     .Index-page-content {
