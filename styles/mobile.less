@@ -15,7 +15,7 @@
     - Tablet And Mobile -
 ******/
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1024px) {
     #splash .logo {
       width: 280px;
       height: 220px;
@@ -28,14 +28,58 @@
       margin: 40px 0 0 -140px;
       padding: 0;
     }
+
+    .main-wrapper .content-container .Index-page-content,
+    #story-section #page-667e5ab8acd3ee331dc39e9c{
+      width: auto !important;
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 100% !important;
+    }
+
+    .sqs-layout > .sqs-row{
+      margin: 0;
+    }
+    
+    /* Home page */
+    .sqs-block-image{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    #story-section #block-yui_3_17_2_1_1720860326575_8937 .summary-item-list .summary-item{
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+    }
+    #story-section #block-yui_3_17_2_1_1720860326575_8937 .summary-item-list .summary-item .summary-content{
+      width: 400px;
+    }
+    #block-yui_3_17_2_1_1719559322476_181604{
+      margin-left: 5em;
+    }
+    #involved-section{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    /* Why women */
+    #collection-668133e5a20be947b7143a85 #description-section{
+      padding: 5vh 1em;
+    }
+    #description-section .Index-page-content p{
+      max-width: 100%;
+    }
+    #collection-668133e5a20be947b7143a85 #work-why{
+      padding-left: 1em;
+      padding-right: 1em;
+    }
   }
 
 @media screen and (max-width: 430px) {
 
   /* Main Section */
   .main-wrapper{
-    border:20px solid #ddd;
-    border-radius: 60px;
+    //border:20px solid #ddd;
+    //border-radius: 60px;
     position: relative;
     overflow: hidden;
 
@@ -77,8 +121,8 @@
   }
 
     .content-container{
-      margin-top: -175px;
-      border-radius: 40px 40px 0 0;
+      margin-top: -75px;
+      //border-radius: 40px 40px 0 0;
 
       h2{
         font-size: 28px !important;
@@ -101,7 +145,7 @@
 
       /* Inner container all Page => Fixed width: 1140px */
       section.Index-page{
-        padding: 0 1em !important;
+        padding: 0 !important;
 
         .Index-page-content {
           padding: 5em 0;
@@ -117,13 +161,14 @@
       /* Blog section all */
       .summary-item-list, .summary-item{
         grid-template-columns: 1fr !important;
+        justify-items: center;
       }
 
       /* ==============
            Home page 
          ============== */
       
-      #banner-home{
+      #banner-home, #banner-women, #banner-about, #banner-impact, #banner-involved{ /* All banner fix */
         
         .Index-page-content{
           padding: 0;
@@ -157,7 +202,7 @@
       
               &:before{
                 bottom: unset;
-                left: 1em;
+                left: 4em;
                 width: 233px;
                 height: 120px;
                 top: -10em;
@@ -231,6 +276,7 @@
                 justify-items: center;
                 text-align: center;
                 margin-right: 0 !important;
+                width: 350px !important;
                 
                 .summary-title, .summary-excerpt{
                   text-align: center;
@@ -306,6 +352,31 @@
       }
     }
 
+
+    /* why women page*/
+    #banner-women .image-subtitle-wrapper{
+      //padding: 0 1em;
+    }
+    /* All page BANNER caption fix */
+    #banner-women .Index-page-content .image-card-wrapper, 
+    #banner-about .Index-page-content .image-card-wrapper,
+    #banner-impact .Index-page-content .image-card-wrapper,
+    #banner-involved .Index-page-content .image-card-wrapper{
+      bottom: 12% !important;
+      width: 90% !important;
+      padding-left: 2em;
+    }
+    #page-66813991d3276b1e70d1a98d{
+      padding: 0;
+    }
+    #work-why #page-66813991d3276b1e70d1a98d .sqs-row #block-yui_3_17_2_1_1719745465255_247112 {
+      width: 330px !important;
+    }
+
+    
+
+
+    /* Footer Section */
     .site-footer{
 
       .site-container{
@@ -363,5 +434,211 @@
       }
     }
   } /* Close main wrapper */
-}
+
+  /*About Page */
+  #collection-6689580f3d3598651c226806 #description-about #page-66895a6786799b2e433ec298{
+    width: auto !important;
+  }
+  #block-yui_3_17_2_1_1720277781649_9534{
+    width: 90% !important;
+    float: unset;
+    margin-left: 30px;
+  }
+  #collection-6689580f3d3598651c226806 #team-about #block-0a4b71680ea55308d70b h2, 
+  #collection-6689580f3d3598651c226806 #directors-about #block-0a4b71680ea55308d70b h2, 
+  #collection-6689580f3d3598651c226806 #team-about #block-6695e816d3bfea2a36b8885c h2, 
+  #collection-6689580f3d3598651c226806 #directors-about #block-6695e816d3bfea2a36b8885c h2{
+    padding-left: 30%;
+  }
+  #collection-6689580f3d3598651c226806 #team-about .summary-item-list .summary-item .summary-content .summary-title, 
+  #collection-6689580f3d3598651c226806 #directors-about .summary-item-list .summary-item .summary-content .summary-title,
+  #collection-6689580f3d3598651c226806 #team-about .summary-item-list .summary-item .summary-content .summary-excerpt p, 
+  #collection-6689580f3d3598651c226806 #directors-about .summary-item-list .summary-item .summary-content .summary-excerpt p{
+    text-align: center;
+  }
+
+  /* Impact page */
+  #description-section-impact .sqs-html-content{
+    padding: 2em 0;
+  }
+  #block-yui_3_17_2_1_1720282922768_2963{
+    padding-left:0 ;
+    padding-right: 0;
+  }
+  #accordion-impact #block-yui_3_17_2_1_1720282922768_2963 ul li.accordion-item button.accordion-item__click-target .accordion-item__title{
+    font-size: 24px;
+    padding-left: 3.5em;
+  }
+  #accordion-impact #block-yui_3_17_2_1_1720282922768_2963 ul li.accordion-item .accordion-item__description p a::before{
+    padding: 1.06em 6.85em !important;
+  }
+  #partners #page-66897081830be074a15ea49e{
+    padding-top: 0em;
+    padding-bottom: 0em;
+  }
+  #testimonials #page-66897770e0721d46e8a265a0 .summary-item .summary-content {
+    width: 100% !important;
+  }
+  #testimonials #page-66897770e0721d46e8a265a0 .summary-item .summary-thumbnail-outer-container{
+    width: 100% !important;
+  }
+  #testimonials #page-66897770e0721d46e8a265a0 .summary-item .summary-thumbnail-outer-container .summary-thumbnail img{
+    margin: 0 auto;
+  }
+
+  /* Get involved page */
+  #collection-6689684951c6376f58b8d2fc{
+
+    #banner-involved{
+      
+    }
+    #description-involved #page-6689f52a48f30c07d21d13a6{
+      .sqs-col-12{
+        .sqs-row{
+          .sqs-col-4{
+            width: 100% !important;
+
+            .lightbox-handle {
+              width: 213px !important;
+            }
+          }
+        }
+      }
+    }
+
+    .sqs-modal-lightbox-content .lightbox-inner .lightbox-content{
+      max-width: 300px !important;
+      padding: 0;
+      padding-top: 40px;
+    }
+
+    #sponsors-involved .Index-page-content #block-6692846ede2104488dde5da9{
+      width: 100%;
+      padding: 0;
+
+      .sqs-block-content{
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+    }
+    #block-yui_3_17_2_1_1720317558134_44043{
+      padding: 0;
+    }
+    #accordion-involved #block-yui_3_17_2_1_1720317558134_44043 ul li.accordion-item button.accordion-item__click-target .accordion-item__title{
+      padding: 0 1em;
+    }
+    #accordion-involved #block-yui_3_17_2_1_1720317558134_44043 ul li.accordion-item .accordion-item__description{
+      padding-left: 2em !important;
+    }
+    #accordion-involved #block-yui_3_17_2_1_1720317558134_44043 ul li.accordion-item .accordion-item__description ul{
+      width: 89%;
+    }
+    #sponsors-section{
+      padding-top: 2em !important;
+
+      .sqs-col-12{
+        .sqs-row{
+          padding: 0 1em;
+          .col{
+          }
+        }
+      }
+    }
+    #additional-section #page-6689f653e0721d46e8c04929 .sqs-row{
+      width: auto !important;
+
+      .intrinsic{
+        max-width: 100% !important;
+      }
+      #block-6689f653e0721d46e8c0492e{
+        padding-top: 1em;
+      }
+
+      .col{
+        width: 100%;
+      }
+    }
+
+  }
+
+  /* Donation page */
+  #collection-668c1c8585de33088cd47ba8 .content-container #page-668c1c8585de33088cd47ba8 .sqs-row{
+    height: auto;
+    padding-left: 2em;
+    padding-right: 6em;
+    padding-bottom: 5vh;
+  }
+  #collection-668c1c8585de33088cd47ba8 .content-container #page-668c1c8585de33088cd47ba8 .sqs-row .sqs-col-12{
+    width: 100%;
+  }
+
+  /* Blog page */
+  #collection-668c2d461f391719c12806a4{
+    .site-header .site-container{
+      background-color: #fff !important;
+      padding-bottom: 5em;
+    }
+  }
+  #collection-668c2d461f391719c12806a4 .content-container .sqs-row .sqs-col-12 .summary-block-wrapper{
+    padding: 2em;
+    width: 100%;
+  }
+  #collection-668c2d461f391719c12806a4 .content-container .sqs-row .sqs-col-12 .summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-title {
+    text-align: center !important;
+
+    a.summary-title-link{
+      padding-top: 1em;
+      text-align: center;
+      font-size: 32px;
+      line-height: 36px;
+      display: block;
+    }
+  }
+  #collection-668c2d461f391719c12806a4 .content-container .sqs-row .sqs-col-12 .summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-excerpt p{
+    text-align: center !important;
+  }
+  #collection-668c2d461f391719c12806a4 .content-container .sqs-row .sqs-col-12 .summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-read-more-link{
+    text-align: center !important;
+  }
+
+  /* contact Page */
+  #page-668c2f3376dff83003723843 .sqs-row{
+    flex-direction: column;
+  }
+  #page-668c2f3376dff83003723843 .sqs-row .sqs-col-8, 
+  #page-668c2f3376dff83003723843 .sqs-row .sqs-col-4{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 2em;
+  }
+
+  /* Blog individual Page */
+  .view-item{
+    article{
+
+      .intrinsic{
+        padding-top: 25%;
+
+        .image-block-wrapper{
+          .sqs-image-shape-container-element{
+            height: 400px;
+          }
+        }
+      }
+    }
+    
+    .columns-12{
+
+      .html-block{
+        width: 100% !important;
+        padding: 0;
+
+        .sqs-block-content{
+          padding-left: 1em;
+          padding-right: 1em;
+        }
+      }
+    }
+  }
+} /* end of mobile style */
   
