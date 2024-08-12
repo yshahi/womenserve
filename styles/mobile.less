@@ -89,8 +89,8 @@
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
-          width: 139px;
-          height: 84px;
+          width: 105px;
+          height: 62px;
           position: absolute;
   
           img{
@@ -137,7 +137,26 @@
         line-height: 26px !important;
       }
       /* buttons */
-      .sqs-block-button-container a.sqs-button-element--primary, .sqs-donate-button-wrapper a.sqs-button-element--primary, .form-button-wrapper a.sqs-button-element--primary, .lightbox-handle-wrapper a.sqs-button-element--primary, .sqs-block-button-container a.sqs-button-element--tertiary, .sqs-donate-button-wrapper a.sqs-button-element--tertiary, .form-button-wrapper a.sqs-button-element--tertiary, .lightbox-handle-wrapper a.sqs-button-element--tertiary, .sqs-block-button-container .sqs-donate-button, .sqs-donate-button-wrapper .sqs-donate-button, .form-button-wrapper .sqs-donate-button, .lightbox-handle-wrapper .sqs-donate-button, .sqs-block-button-container .form-submit-button, .sqs-donate-button-wrapper .form-submit-button, .form-button-wrapper .form-submit-button, .lightbox-handle-wrapper .form-submit-button, .sqs-block-button-container .lightbox-handle, .sqs-donate-button-wrapper .lightbox-handle, .form-button-wrapper .lightbox-handle, .lightbox-handle-wrapper .lightbox-handle {
+      .sqs-block-button-container a.sqs-button-element--primary, 
+      .sqs-donate-button-wrapper a.sqs-button-element--primary, 
+      .form-button-wrapper a.sqs-button-element--primary, 
+      .lightbox-handle-wrapper a.sqs-button-element--primary, 
+      .sqs-block-button-container a.sqs-button-element--tertiary, 
+      .sqs-donate-button-wrapper a.sqs-button-element--tertiary, 
+      .form-button-wrapper a.sqs-button-element--tertiary, 
+      .lightbox-handle-wrapper a.sqs-button-element--tertiary, 
+      .sqs-block-button-container .sqs-donate-button, 
+      .sqs-donate-button-wrapper .sqs-donate-button, 
+      .form-button-wrapper .sqs-donate-button, 
+      .lightbox-handle-wrapper .sqs-donate-button, 
+      .sqs-block-button-container .form-submit-button, 
+      .sqs-donate-button-wrapper .form-submit-button, 
+      .form-button-wrapper .form-submit-button, 
+      .lightbox-handle-wrapper .form-submit-button, 
+      .sqs-block-button-container .lightbox-handle, 
+      .sqs-donate-button-wrapper .lightbox-handle, 
+      .form-button-wrapper .lightbox-handle, 
+      .lightbox-handle-wrapper .lightbox-handle {
         font-size: 16px !important;
         padding: .95em 2.4em !important;
         width: 137px !important;
@@ -162,6 +181,7 @@
       .summary-item-list, .summary-item{
         grid-template-columns: 1fr !important;
         justify-items: center;
+        margin: 0 auto !important;
       }
 
       /* ==============
@@ -232,17 +252,33 @@
           flex-direction: column-reverse;
           align-items: center;
 
+          #block-yui_3_17_2_1_1719557219377_52232{
+            padding-left:1em !important;
+            padding-right:1em !important;
+          }
+
           .sqs-block {
             text-align: center;
             width: 100%;
+            margin: 0 auto !important;
+            padding:1em 0 !important;
 
             h2, p{
               text-align: center;
               margin: 0 auto;
+              padding: 0 50px;
+            }
+            h2{
+
+              padding-bottom: 1em;
             }
 
-            p:has(a) a{
-              padding: 20px 70px;
+            p:has(a) {
+              padding: 1px !important;
+              a{
+                padding: 12px 50px;
+                font-size: 16px !important;
+              }
             }
           }
         }
@@ -276,7 +312,8 @@
                 justify-items: center;
                 text-align: center;
                 margin-right: 0 !important;
-                width: 350px !important;
+                width: auto !important;
+                padding: 0 1em;
                 
                 .summary-title, .summary-excerpt{
                   text-align: center;
@@ -351,12 +388,7 @@
         }
       }
     }
-
-
-    /* why women page*/
-    #banner-women .image-subtitle-wrapper{
-      //padding: 0 1em;
-    }
+    
     /* All page BANNER caption fix */
     #banner-women .Index-page-content .image-card-wrapper, 
     #banner-about .Index-page-content .image-card-wrapper,
@@ -397,6 +429,26 @@
               .newsletter-form-wrapper{
                 padding-left: 0;
                 padding-right: 0;
+
+                .newsletter-form-header-description{
+                  p{
+                    font-size: 28px;
+                  }
+                }
+                .newsletter-form-field-wrapper{
+                  min-width: 100%;
+
+                  input{
+                    width: 100%;
+                  }
+                }
+
+                .newsletter-form-button-wrapper{
+                  width: 100%;
+                  .newsletter-form-button{
+                    width: 100%;
+                  }
+                }
               }
             }
             #block-yui_3_17_2_1_1719572437820_178461{
@@ -405,6 +457,11 @@
 
               p{
                 text-align: left !important;
+
+                a{
+                  font-size: 20px !important;
+                  padding: 0 !important;
+                }
               }
             }
             .sqs-row{
@@ -434,6 +491,47 @@
       }
     }
   } /* Close main wrapper */
+
+
+  /* why women page*/
+
+  #collection-668133e5a20be947b7143a85, #collection-668967fed6d44e5855619dda{
+
+    .main-wrapper .site-header .site-title-link{
+      background-image: url("../assets/images/Logo_white_header.png");
+    }
+
+    .main-wrapper .menu-btn__burger{
+      background: #fff;
+
+      &::after, &::before{
+        background: #fff;
+      }
+    }
+
+    #page-66813807846ebb74f80dab5e{
+      padding-top: 2em;
+    }
+    
+    #work-why{
+      .Index-page-content{
+        padding-top: 0;
+
+        #page-66813991d3276b1e70d1a98d{
+          margin: 0 auto;
+          width: 355px !important;
+    
+          #block-yui_3_17_2_1_1719745465255_247112{
+            .sqs-html-content{
+              h2, p{
+                line-height: normal !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
   /*About Page */
   #collection-6689580f3d3598651c226806 #description-about #page-66895a6786799b2e433ec298{
@@ -532,6 +630,7 @@
     }
     #accordion-involved #block-yui_3_17_2_1_1720317558134_44043 ul li.accordion-item .accordion-item__description ul{
       width: 89%;
+      float: left;
     }
     #sponsors-section{
       padding-top: 2em !important;
@@ -544,21 +643,35 @@
         }
       }
     }
-    #additional-section #page-6689f653e0721d46e8c04929 .sqs-row{
-      width: auto !important;
+    #additional-section #page-6689f653e0721d46e8c04929 {
 
-      .intrinsic{
-        max-width: 100% !important;
-      }
-      #block-6689f653e0721d46e8c0492e{
-        padding-top: 1em;
-      }
+      background: linear-gradient(to bottom, rgba(254, 239, 236, 0) 0%, rgba(254, 239, 236, 0) 52%, #fc9294 52%, #fc9294 100%);
 
-      .col{
-        width: 100%;
-      }
-    }
+      .sqs-row{
+        width: auto !important;
 
+        .sqs-block-image{
+          padding-left: 1em !important;
+          padding-right: 1em !important;
+        }
+
+        h2{
+          padding-top: 0.5em;
+          padding-bottom: 1em;
+        }
+  
+        .intrinsic{
+          max-width: 100% !important;
+        }
+        #block-6689f653e0721d46e8c0492e{
+          padding-top: 1em;
+        }
+  
+        .col{
+          width: 100%;
+        }
+      }
+    } 
   }
 
   /* Donation page */
