@@ -576,9 +576,19 @@
     padding-top: 0em;
     padding-bottom: 0em;
   }
-  #testimonials #page-66897770e0721d46e8a265a0 .summary-item .summary-content {
-    width: 100% !important;
-  }
+  #testimonials #page-66897770e0721d46e8a265a0 .summary-item{
+    padding-bottom: 0px !important;
+
+    .summary-content {
+      width: 100% !important;
+  
+      .summary-excerpt{
+        padding-top: 1em;
+      }
+    }
+
+  } 
+  
   #testimonials #page-66897770e0721d46e8a265a0 .summary-item .summary-thumbnail-outer-container{
     width: 100% !important;
   }
@@ -602,6 +612,7 @@
             float: unset;
 
             p{
+              padding-top: 10px;
               padding-bottom: 0.5em;
             }
           }

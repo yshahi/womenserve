@@ -6,6 +6,7 @@
 
     <!-- include system scripts, page meta, and header code injection -->
     {squarespace-headers}
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
   <div class="main-wrapper"> <!-- Open main-wrapper -->

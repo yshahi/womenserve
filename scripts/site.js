@@ -18,6 +18,17 @@ function loadAllImages() {
 document.addEventListener('DOMContentLoaded', loadAllImages);
 
 
+/* animation */
+$(document).ready(function() {
+  $('.image-card').each(function(index) {
+      $(this).delay(index * 10).animate({
+          top: '0',
+          opacity: 1
+      }, 400, 'linear'); // 4000ms duration for a slow, smooth animation
+  });
+});
+
+
 /* Hamburger menu */
 
 /*function toggleMenu() {
