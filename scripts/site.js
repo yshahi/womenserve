@@ -18,7 +18,7 @@ function loadAllImages() {
 document.addEventListener('DOMContentLoaded', loadAllImages);
 
 
-/* animation */
+/* animation 
 $(document).ready(function() {
   $('.image-card').each(function(index) {
       $(this).delay(index * 10).animate({
@@ -26,7 +26,7 @@ $(document).ready(function() {
           opacity: 1
       }, 400, 'linear'); // 4000ms duration for a slow, smooth animation
   });
-});
+});*/
 
 
 /* Hamburger menu */
