@@ -363,7 +363,6 @@ a, a:hover{
           max-width:1140px;
           margin: 0 auto;
           float: unset;
-          padding-top: 0;
           text-align: left;
           color: #fff;
 
@@ -396,9 +395,11 @@ a, a:hover{
         }
         p{
             font-weight: 500;
+            font-family: "ethic-regular";
 
             a{
               text-decoration: underline;
+              color: #FC9294;
             }
         }
         }
