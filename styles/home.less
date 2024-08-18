@@ -18,36 +18,34 @@
     }
   
     .image-card-wrapper{
-      left: 15%;
-      width: 70%;
+      width: 1140px;
+      top: 0;
+      bottom: 10%;
 
       .image-card{
         position: relative;
 
-        &:before{
-          content: "";
-          background-image: url(../assets/images/home_banner_logo.png);
-          background-repeat: no-repeat;
-          background-size: cover;
-          position: absolute;
-          top:0;
-          left: 25%;
-          width: 550px;
-          height: 280px;
-          background-position: center;
-          opacity: 0.7;
-        }
-
         .image-title-wrapper{
-          padding-top: 2em;
+          padding-top: 3em;
+          position: relative;
+
+          &:before{
+            content: "";
+            background-image: url(../assets/images/home_banner_logo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top:1em;
+            left: 25%;
+            width: 550px;
+            height: 280px;
+            background-position: center;
+            opacity: 0.7;
+          }
     
           p{
             font-size: 40px !important;
             line-height: 48px;
-            /*font-family: "Balgin-Extlight";
-            text-transform: uppercase;
-            font-weight: 100;
-            */
             font-family:"ethic-light";
             text-transform:none;
             text-align: center !important;
@@ -77,11 +75,11 @@
 }
   
 /* vision */
-#vision-section, #description-section{
+#vision-section{
   background:  url("../assets/images/bg_VisionSection.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 5em;
+  padding: 100px 5em 50px;
   margin-top: -100px;
   z-index: 100;
   position: relative;
@@ -108,7 +106,6 @@
   background-repeat: no-repeat;
   background-position: bottom;
   padding:0;
-  padding-bottom:10vh;
   z-index: 100;
   position: relative;
 
@@ -126,7 +123,7 @@
 /* our-work */
 #our-work{
   background: #fff;
-  padding: 3em 5em;
+  padding: 0 5em;
 
   .sqs-col-12{
     display: flex;
@@ -194,7 +191,7 @@
   padding:0;
 
   .Index-page-content {
-    padding:7em 0em 4em;
+    padding:5em 0 2em;
   }
 
   #page-667e5ab8acd3ee331dc39e9c{
@@ -223,6 +220,7 @@
   }
 
   #block-yui_3_17_2_1_1720860326575_8937{ /* stories blog block */
+    padding-top: 0;
 
     .summary-item-list, .summary-item{
       display: grid;

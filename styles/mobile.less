@@ -29,6 +29,25 @@
       padding: 0;
     }
 
+    .view-item .main-wrapper .article-container article .sqs-layout{
+      .sqs-row{
+        margin-left: 0;
+        margin-right: 0;
+
+        .html-block {
+          .sqs-block-content{
+            padding: 0 1em;
+          }
+        }
+      }
+    }
+
+    .view-item .main-wrapper .article-container article .sqs-layout .html-block, 
+    .view-item .main-wrapper .article-container article .sqs-layout .tagcloud-block {
+      width: 100%;
+      padding: 0;
+    }
+
     .main-wrapper .content-container .Index-page-content,
     #story-section #page-667e5ab8acd3ee331dc39e9c{
       width: auto !important;
@@ -73,6 +92,12 @@
       padding-right: 1em;
     }
   }
+
+
+
+/* ------------------------------------
+-------------- Mobile -----------------
+-------------------------------------*/
 
 @media screen and (max-width: 430px) {
 
@@ -167,7 +192,7 @@
         padding: 0 !important;
 
         .Index-page-content {
-          padding: 5em 0;
+          padding: 3em 0 2em;
           max-width:100%;
           margin: 0 auto;
         }
@@ -207,7 +232,7 @@
           .image-card-wrapper{
             left: 0;
             width: 100%;
-            bottom: 0;
+            bottom: 20%;
       
             .image-card{
               position: relative;
@@ -219,17 +244,33 @@
                   font-size: 25px !important;
                 }
               }
-      
-              &:before{
-                bottom: unset;
-                left: 4em;
-                width: 233px;
-                height: 120px;
-                top: -10em;
+
+              .image-title-wrapper{
+                &:before{
+                  bottom: unset;
+                  left: 1.8em;
+                  width: 233px;
+                  height: 120px;
+                  top: -3em;
+                }
               }
             }
           }
+        }
+      }
 
+      #banner-home{
+        .Index-page-content{
+          .image-card-wrapper{
+      
+            .image-card{
+              padding-top: 20em;
+      
+              &:before{
+                top: 10em;
+              }
+            }
+          }
         }
       }
       
@@ -246,41 +287,56 @@
         }
       }
 
+      /* why women */
+      #why-section{
+        .Index-page-content {
+          padding-bottom: 4em;
+        }
+      }
+
       /* work section */
       #our-work{
-        .sqs-col-12{
-          flex-direction: column-reverse;
-          align-items: center;
 
-          #block-yui_3_17_2_1_1719557219377_52232{
-            padding-left:1em !important;
-            padding-right:1em !important;
-          }
+        .Index-page-content {
+          padding-top: 0;
 
-          .sqs-block {
-            text-align: center;
-            width: 100%;
-            margin: 0 auto !important;
-            padding:1em 0 !important;
-
-            h2, p{
+          .sqs-col-12{
+            flex-direction: column-reverse;
+            align-items: center;
+  
+            #block-yui_3_17_2_1_1719557219377_52232{
+              padding-left:1em !important;
+              padding-right:1em !important;
+            }
+  
+            .sqs-block {
               text-align: center;
-              margin: 0 auto;
-              padding: 0 50px;
-            }
-            h2{
-
-              padding-bottom: 1em;
-            }
-
-            p:has(a) {
-              padding: 1px !important;
-              a{
-                padding: 12px 50px;
-                font-size: 16px !important;
+              width: 100%;
+              margin: 0 auto !important;
+              padding:1em 0 !important;
+  
+              h2, p{
+                text-align: center;
+                margin: 0 auto;
+                padding: 0 50px;
+              }
+              h2{
+  
+                padding-bottom: 1em;
+              }
+  
+              p:has(a) {
+                padding: 1px !important;
+                margin-top: 1em;
+  
+                a{
+                  padding: 12px 50px;
+                  font-size: 16px !important;
+                }
               }
             }
           }
+
         }
       }
 
@@ -394,9 +450,8 @@
     #banner-about .Index-page-content .image-card-wrapper,
     #banner-impact .Index-page-content .image-card-wrapper,
     #banner-involved .Index-page-content .image-card-wrapper{
-      bottom: 12% !important;
+      bottom: 20% !important;
       width: 90% !important;
-      padding-left: 2em;
     }
     #page-66813991d3276b1e70d1a98d{
       padding: 0;
@@ -528,6 +583,10 @@
               }
             }
           }
+
+          #block-yui_3_17_2_1_1719745465255_297531{
+            display: none;
+          }
         }
       }
     }
@@ -554,6 +613,32 @@
   #collection-6689580f3d3598651c226806 #directors-about .summary-item-list .summary-item .summary-content .summary-excerpt p{
     text-align: center;
   }
+  #collection-6689580f3d3598651c226806{
+    #team-about{
+      
+      .Index-page-content{
+        #page-6692aa67c1b02b32c63397ac{
+          #block-0a4b71680ea55308d70b{
+            h2{
+              padding-left: 32%;
+              padding-top: 2%;
+            }
+          }
+        }
+        .summary-item-list{
+          .summary-item{
+            margin-bottom: 1em !important;
+            .summary-content{
+              .summary-title{
+                .summary-title-link{font-size: 32px !important;}
+              }
+            } 
+          } 
+        }
+      }
+    }
+  }
+
 
   /* Impact page */
   #description-section-impact{
@@ -630,6 +715,7 @@
       
     }
     #description-involved #page-6689f52a48f30c07d21d13a6{
+      padding: 4em 0 3em;
       .sqs-col-12{
         .sqs-row{
           .sqs-col-4{
@@ -638,10 +724,18 @@
             .lightbox-handle {
               width: 213px !important;
             }
+
+            a.sqs-button-element--primary{
+              &::before{
+                padding: 2.3em 6.85em;
+              }
+            }
           }
         }
       }
     }
+
+    #block-yui_3_17_2_1_1720878261935_96648{ display: none; }
 
     .sqs-modal-lightbox-content .lightbox-inner .lightbox-content{
       max-width: 300px !important;
@@ -677,6 +771,10 @@
     #sponsors-section{
       padding-top: 2em !important;
 
+      #page-6689f5d9c0ed12691b5750fd {
+        padding: 1em 0 6em;
+      }
+
       .sqs-col-12{
         .sqs-row{
           padding: 0 1em;
@@ -687,10 +785,11 @@
     }
     #additional-section #page-6689f653e0721d46e8c04929 {
 
-      background: linear-gradient(to bottom, rgba(254, 239, 236, 0) 0%, rgba(254, 239, 236, 0) 52%, #fc9294 52%, #fc9294 100%);
+      background: linear-gradient(to bottom, rgba(254, 239, 236, 0) 0%, rgba(254, 239, 236, 0) 54%, #fc9294 54%, #fc9294 100%);
 
       .sqs-row{
         width: auto !important;
+        padding-bottom: 1em;
 
         .sqs-block-image{
           padding-left: 1em !important;
@@ -803,6 +902,10 @@
         }
       }
     }
+  }
+  .view-item .main-wrapper .article-container article .sqs-layout .tagcloud-block{
+    padding-left: 10px;
+    padding-bottom: 20px;
   }
 
   /* Single page */
