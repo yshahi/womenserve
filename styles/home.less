@@ -392,3 +392,43 @@
     } 
   } 
 }
+
+/* Animation */
+#block-yui_3_17_2_1_1719557219377_52232 {
+  .image-block-outer-wrapper{
+    .sqs-image-shape-container-element img{
+      animation: rotate-pic 12s infinite;
+    }
+    .image-card-wrapper{
+      .image-card{
+        .image-subtitle-wrapper{
+          .image-subtitle{
+            position: relative;
+            p{
+              position: absolute;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+} 
+
+@keyframes rotate-pic {
+  0% {
+    transform: rotate(0deg)
+  }
+  8.33%, 25% {
+    transform: rotate(90deg)
+  }
+  33.33%, 50% {
+    transform: rotate(180deg)
+  }
+  58.33%, 75% {
+    transform: rotate(270deg)
+  }
+  83.33%, 100% {
+    transform: rotate(360deg)
+  }
+}

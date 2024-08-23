@@ -277,16 +277,17 @@
         }
 
         .blog-item-pagination{
-            padding: 2em;
+            padding:1em 2em;
             display: flex;
             justify-content: space-evenly;
 
             a{
-                color: #fff;
+                color: #272a69;
                 display: inline-block;
                 font-family: "Balgin-Extlight";
                 text-transform: uppercase;
                 text-decoration: none;
+                font-weight: 400;
 
                 &:hover{
                     text-decoration: underline;
@@ -294,6 +295,7 @@
 
                 &::before, &::after{
                     background-image:  url("../assets/images/arrow_close.png");
+                    filter: invert(1);
                     content: "";
                     width: 18px;
                     height: 18px;
