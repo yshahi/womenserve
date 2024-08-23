@@ -40,6 +40,9 @@
                 p{
                     font-weight: 500;
                 }
+                a.category{
+                    display: none;
+                }
                 .sqs-tagcloud{
                     height: 30px;
                     a{
@@ -88,11 +91,16 @@
 
 @media screen and (max-width: 430px) {
 
-    .collection-layout-article.view-list{
+    .view-list.collection-layout-article{
         .main-wrapper{
             .site-header{
                 background-color: #fff;
                 padding-bottom: 3em;
+
+                .site-container{
+                    min-height: 65px;
+                    padding-top: 0;
+                }
             }
 
             .article-container{

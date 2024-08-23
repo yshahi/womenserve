@@ -850,9 +850,16 @@
 
   /* Blog page */
   #collection-668c2d461f391719c12806a4{
-    .site-header .site-container{
-      background-color: #fff !important;
-      padding-bottom: 5em;
+    .site-header{
+      .site-container{
+        background-color: #fff !important;
+        //padding-bottom: 5em;
+        padding-bottom: 0;
+        min-height: 118px;
+      }
+    }
+    .content-container{
+      margin-top: -110px;
     }
   }
   #collection-668c2d461f391719c12806a4 .content-container .sqs-row .sqs-col-12 .summary-block-wrapper{
@@ -890,6 +897,15 @@
 
   /* Blog individual Page */
   .view-item{
+    .main-wrapper{
+      .site-header{
+        .site-container{
+          min-height: 0;
+          padding-top: 0;
+        }
+      }
+    }
+
     article{
 
       .intrinsic{
