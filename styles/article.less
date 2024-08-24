@@ -3,6 +3,31 @@
         border-radius: 0;
         border: 0;
 
+        .site-header{
+            background-color:#FEEFEC;
+
+            .site-title-link{
+                background:  url("../assets/images/Logo_dark.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 139px;
+                height: 84px;
+                position: absolute;
+
+                img{
+                    display: none;
+                }
+            }
+            .menu-btn__burger{
+                background: #272A69;
+        
+                &::before, &::after{
+                    background: #272A69;
+                }
+            }
+        }
+
         .article-container{
             article{
                 padding: 0;
@@ -68,9 +93,22 @@
                 }
 
                 .sqs-layout{
-                    margin-top: -180px;
+                    //margin-top: -180px;
                     background-color: #FEEFEC;
                     padding-bottom: 5em;
+
+                    .sqs-block-content{
+                        .image-block-outer-wrapper{
+                            figure.sqs-block-image-figure{
+                                width: 1140px;
+                                border: 15px solid rgba(252, 146, 148, 1);
+
+                                .image-block-wrapper{
+                                    height: 715px;
+                                }
+                            }
+                        }
+                    }
 
                     .html-block, .tagcloud-block{
                         width: 1140px;
