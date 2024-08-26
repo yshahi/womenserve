@@ -15,85 +15,262 @@
     - Tablet And Mobile -
 ******/
 
-@media screen and (max-width: 1024px) {
-    #splash .logo {
-      width: 280px;
-      height: 220px;
-      position: absolute;
-      top: 50vh;
-      left: 50vw;
-      margin: -240px 0 0 -140px;
+@media (min-width: 431px) and (max-width: 1024px) {
+  #splash .logo {
+    width: 280px;
+    height: 220px;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    margin: -240px 0 0 -140px;
+  }
+  #splash .buttons {
+    margin: 40px 0 0 -140px;
+    padding: 0;
+  }
+
+  .view-item .main-wrapper .article-container article .sqs-layout{
+    .sqs-row{
+      margin-left: 0;
+      margin-right: 0;
+
+      .html-block {
+        .sqs-block-content{
+          padding: 0 1em;
+        }
+      }
     }
-    #splash .buttons {
-      margin: 40px 0 0 -140px;
+  }
+
+  #banner-home, #banner-women, #banner-about, #banner-impact, #banner-involved{ /* All banner fix */
+        
+    .Index-page-content{
       padding: 0;
-    }
 
-    .view-item .main-wrapper .article-container article .sqs-layout{
-      .sqs-row{
-        margin-left: 0;
-        margin-right: 0;
+      .intrinsic{
 
-        .html-block {
-          .sqs-block-content{
-            padding: 0 1em;
+        .sqs-image-shape-container-element{
+          height: 340px !important;
+
+          img{
+            /*height: 400px !important;*/
+          }
+        }
+      } 
+
+      .image-card-wrapper{
+        left: 0;
+        width: 90%;
+        bottom: 20%;
+        top: unset;
+  
+        .image-card{
+          position: relative;
+
+          .image-title-wrapper, .image-subtitle-wrapper{
+            padding-top: 0;
+
+            p{
+              font-size: 32px !important;
+            }
+          }
+
+          .image-title-wrapper{
+            &:before{
+              bottom: unset;
+              top: -2em;
+              left: 2.2em;
+              width: 350px;
+              height: 180px;
+            }
           }
         }
       }
     }
+  }
 
-    .view-item .main-wrapper .article-container article .sqs-layout .html-block, 
-    .view-item .main-wrapper .article-container article .sqs-layout .tagcloud-block {
-      width: 100%;
-      padding: 0;
-    }
-
-    .main-wrapper .content-container .Index-page-content,
-    #story-section #page-667e5ab8acd3ee331dc39e9c{
-      width: auto !important;
-      padding-left: 0;
-      padding-right: 0;
-      max-width: 100% !important;
-    }
-
-    .sqs-layout > .sqs-row{
-      margin: 0;
-    }
-    
-    /* Home page */
-    .sqs-block-image{
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-    }
-    #story-section #block-yui_3_17_2_1_1720860326575_8937 .summary-item-list .summary-item{
-      grid-template-columns: 1fr;
-      margin: 0 auto;
-    }
-    #story-section #block-yui_3_17_2_1_1720860326575_8937 .summary-item-list .summary-item .summary-content{
-      width: 400px;
-    }
-    #block-yui_3_17_2_1_1719559322476_181604{
-      margin-left: 5em;
-    }
-    #involved-section{
-      padding-left: 0;
-      padding-right: 0;
-    }
-
-    /* Why women */
-    #collection-668133e5a20be947b7143a85 #description-section{
-      padding: 5vh 1em;
-    }
-    #description-section .Index-page-content p{
-      max-width: 100%;
-    }
-    #collection-668133e5a20be947b7143a85 #work-why{
-      padding-left: 1em;
-      padding-right: 1em;
+  .view-item .main-wrapper .article-container article .sqs-layout .html-block{
+    width: 100%;
+    padding: 0;
+  } 
+  .view-item .main-wrapper .article-container article .sqs-layout .tagcloud-block {
+    width: 100%;
+    padding: 0;
+    .sqs-tagcloud{
+      padding: 1em;
     }
   }
 
+  .main-wrapper .content-container .Index-page-content,
+  #story-section #page-667e5ab8acd3ee331dc39e9c{
+    width: auto !important;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100% !important;
+  }
 
+  .sqs-layout > .sqs-row{
+    margin: 0;
+  }
+  
+  /* Home page */
+  .sqs-block-image{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  #story-section #block-yui_3_17_2_1_1720860326575_8937 .summary-item-list .summary-item{
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  #story-section #block-yui_3_17_2_1_1720860326575_8937 .summary-item-list .summary-item .summary-content{
+    width: 350px;
+  }
+  #block-yui_3_17_2_1_1719559322476_181604{
+    margin-left: 5em;
+  }
+
+  #involved-section{
+    padding-left: 0;
+    padding-right: 0;
+
+    #page-667e5ad0315ec9044d940ffa{
+      .sqs-col-12{
+        .sqs-row{
+          .sqs-block-button{
+            padding-left: 0;
+            padding-right: 0;
+
+            .sqs-block-button-container{
+              margin: 0;
+            }
+          }
+        }
+      } 
+    }
+  }
+
+  /* Why women */
+  #collection-668133e5a20be947b7143a85 #description-section{
+    padding: 5vh 1em;
+  }
+  #description-section .Index-page-content p{
+    max-width: 100%;
+  }
+  #collection-668133e5a20be947b7143a85 #work-why{
+    padding-left: 1em;
+    padding-right: 1em;
+
+    #page-66813991d3276b1e70d1a98d{
+      .sqs-row{
+        #block-yui_3_17_2_1_1719745465255_247112{
+          width: 100%;
+          padding: 0;
+        }
+      } 
+    }  
+  }
+  /* about us */
+  #collection-6689580f3d3598651c226806 #description-about #page-66895a6786799b2e433ec298{
+    width: 100% !important;
+  }
+
+  /*Impact page */
+  #accordion-impact{
+    #block-yui_3_17_2_1_1720282922768_2963{
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  #the-impact{
+    padding: 0 1em;
+  }
+  #the-impact h3{
+    font-size: 50px;
+  }
+  #the-impact p{
+    font-size: 32px;
+    line-height: 36px;
+  }
+  #testimonials #page-66897770e0721d46e8a265a0 .summary-item .summary-thumbnail-outer-container {
+    width: 26% !important;
+  }
+
+  /* get involved page */
+  #sponsors-involved .Index-page-content #block-6692846ede2104488dde5da9{
+    width: 100%;
+    padding: 0;
+  }
+  #additional-section #page-6689f653e0721d46e8c04929 .sqs-row{
+    width: 100% !important;
+  }
+  #page-6689f52a48f30c07d21d13a6{
+    .sqs-row{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .sqs-col-4{
+        width: 100%;
+      }
+    }
+  }
+  #block-yui_3_17_2_1_1720317558134_44043{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #block-yui_3_17_2_1_1719572437820_39729{
+    padding-left:2em !important;
+    padding-right: 2em !important;
+  }
+
+  /*Blog page */
+  #collection-668c2d461f391719c12806a4 .content-container .sqs-row .sqs-col-12 .summary-block-wrapper .summary-item-list .summary-item .summary-content, 
+  #collection-668c2d461f391719c12806a4 .content-container .sqs-row .sqs-col-12 .summary-block-wrapper .summary-item .summary-item .summary-content {
+    width: 100%;
+  }
+  #collection-668c2d461f391719c12806a4 .content-container .sqs-row .sqs-col-12 .summary-block-wrapper .summary-item-list, 
+  #collection-668c2d461f391719c12806a4 .content-container .sqs-row .sqs-col-12 .summary-block-wrapper .summary-item{
+    grid-template-columns: 1fr;
+  }
+  #collection-668c2d461f391719c12806a4 .content-container .sqs-row .sqs-col-12 .summary-block-wrapper{
+    width: 100%;
+  }
+
+  /* Blog article */
+  .view-item .main-wrapper{
+    .article-container {
+      article{
+        .sqs-layout{
+          .sqs-block-content{
+            .image-block-outer-wrapper{
+              height: 100%;
+              figure.sqs-block-image-figure{
+                width: 92%;
+  
+                img{
+                  height: 100% !important;
+                }
+              }
+            } 
+          }
+        }
+      }
+    }
+  }
+  .view-item .main-wrapper .article-container article .sqs-layout .sqs-block-content .image-block-outer-wrapper figure.sqs-block-image-figure .image-block-wrapper {
+    height: 100%;
+  }
+  .view-item .main-wrapper .article-container article .sqs-layout .sqs-block-content .image-block-outer-wrapper figure.sqs-block-image-figure .image-block-wrapper img{
+    height: 100%;
+  } 
+
+  /* footer */
+  .site-footer .site-container #footerBlocks .sqs-block-newsletter .newsletter-form-wrapper .newsletter-form-body{
+    text-align: center;
+  }
+}
 
 /* ------------------------------------
 -------------- Mobile -----------------
@@ -212,7 +389,7 @@
         padding: 0 !important;
 
         .Index-page-content {
-          padding: 3em 0 2em;
+          padding: 3em 1em 2em;
           max-width:100%;
           margin: 0 auto;
         }
@@ -363,7 +540,7 @@
       // story-section
       #story-section{
         .Index-page-content {
-          padding: 0;
+          padding: 0 1em;
           padding-top: 2em;
           padding-bottom: 2em;
 
@@ -586,6 +763,12 @@
 
     #page-66813807846ebb74f80dab5e{
       padding-top: 2em;
+
+      .sqs-row{
+        margin: 0;
+        padding-left: .5em;
+        padding-right: .5em;
+      }
     }
     
     #work-why{
@@ -679,6 +862,10 @@
   #block-yui_3_17_2_1_1720282922768_2963{
     padding-left:0 ;
     padding-right: 0;
+
+    .accordion-item__title-wrapper{
+      padding: 0 10px 0 0;
+    }
   }
   #accordion-impact #block-yui_3_17_2_1_1720282922768_2963 ul li.accordion-item button.accordion-item__click-target .accordion-item__title{
     font-size: 24px;
@@ -784,13 +971,18 @@
       .sqs-block-content{
         padding-left: 1em;
         padding-right: 1em;
+
+        .sqs-html-content{
+          padding: 0 1em;
+        }
       }
     }
     #sponsors-involved #block-yui_3_17_2_1_1720878261935_140381{
+      padding: 0 2em;
       padding-top: 2em;
     }
     #block-yui_3_17_2_1_1720317558134_44043{
-      padding: 0;
+      padding: 0 10px;
     }
     #accordion-involved #block-yui_3_17_2_1_1720317558134_44043 ul li.accordion-item button.accordion-item__click-target .accordion-item__title{
       padding: 0 1em;
@@ -805,14 +997,24 @@
     #sponsors-section{
       padding-top: 2em !important;
 
-      #page-6689f5d9c0ed12691b5750fd {
-        padding: 1em 0 6em;
-      }
+      .Index-page-content {
+        padding: 0 1em;
 
-      .sqs-col-12{
-        .sqs-row{
-          padding: 0 1em;
-          .col{
+        #page-6689f5d9c0ed12691b5750fd {
+          padding: 1em 0 6em;
+        }
+  
+        .sqs-col-12{
+          padding: 0;
+          .sqs-row{
+            padding: 0 1em;
+            .col{
+
+              .image-block{
+                padding: 0;
+                padding-bottom: 17px;
+              }
+            }
           }
         }
       }
@@ -903,12 +1105,16 @@
   /* contact Page */
   #page-668c2f3376dff83003723843 .sqs-row{
     flex-direction: column;
+    margin: 0 auto;
   }
   #page-668c2f3376dff83003723843 .sqs-row .sqs-col-8, 
   #page-668c2f3376dff83003723843 .sqs-row .sqs-col-4{
     width: 100%;
     padding: 0;
     margin-bottom: 2em;
+  }
+  #page-668c2f3376dff83003723843 .sqs-row .form-button-wrapper .form-submit-button::before {
+    padding: 1.7em 8.2em;
   }
 
   /* Blog individual Page */
@@ -945,6 +1151,10 @@
           padding-left: 1em;
           padding-right: 1em;
 
+          .sqs-html-content{
+            padding: 0 1em;
+          }
+
           h1{
             font-size: 48px;
             line-height: 52px;
@@ -958,7 +1168,7 @@
     }
   }
   .view-item .main-wrapper .article-container article .sqs-layout .tagcloud-block{
-    padding-left: 10px;
+    padding-left: 2em;
     padding-bottom: 20px;
   }
 
