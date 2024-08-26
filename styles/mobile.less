@@ -113,6 +113,7 @@
     padding-left: 0;
     padding-right: 0;
     max-width: 100% !important;
+    padding-bottom: 0;
   }
 
   .sqs-layout > .sqs-row{
@@ -126,6 +127,7 @@
   }
 
   #our-work{
+    padding: 0 1em;
     .Index-page-content {
       .sqs-col-12{
         flex-direction: column-reverse;
@@ -153,6 +155,8 @@
   #story-section #block-yui_3_17_2_1_1720860326575_8937 .summary-item-list .summary-item{
     grid-template-columns: 1fr;
     margin: 0 auto;
+    margin-right: 0 !important;
+    margin-bottom: 1em !important;
   }
   #story-section #block-yui_3_17_2_1_1720860326575_8937 .summary-item-list .summary-item .summary-content{
     //width: 350px;
@@ -163,12 +167,21 @@
   }
 
   #involved-section{
-    padding-left: 0;
-    padding-right: 0;
+    min-height: unset;
+    padding: 0;
+    background-size: cover;
+    
+    #block-667e5ad0315ec9044d941000{ display: none; }
 
     #page-667e5ad0315ec9044d940ffa{
+      padding-top:6em;
       .sqs-col-12{
         .sqs-row{
+          flex-direction: column;
+
+          .sqs-col-4{
+            margin-bottom: 1em;
+          }
           .sqs-block-button{
             padding-left: 0;
             padding-right: 0;
